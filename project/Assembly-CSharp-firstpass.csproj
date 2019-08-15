@@ -1,0 +1,1086 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <LangVersion>4</LangVersion>
+  </PropertyGroup>
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>10.0.20506</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <RootNamespace></RootNamespace>
+    <ProjectGuid>{79391AC5-8752-B4CC-F33F-BB9EB1094377}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <AssemblyName>Assembly-CSharp-firstpass</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <BaseDirectory>Assets</BaseDirectory>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>Temp\bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_6_OR_NEWER;UNITY_2017_1_OR_NEWER;UNITY_2017_2_OR_NEWER;UNITY_2017_3_OR_NEWER;UNITY_2017_3_0;UNITY_2017_3;UNITY_2017;PLATFORM_ARCH_64;UNITY_64;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_DUCK_TYPING;ENABLE_GENERICS;ENABLE_PVR_GI;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_SPRITERENDERER_FLIPPING;ENABLE_SPRITES;ENABLE_GRID;ENABLE_TILEMAP;ENABLE_TERRAIN;ENABLE_RAKNET;ENABLE_DIRECTOR;ENABLE_UNET;ENABLE_LZMA;ENABLE_UNITYEVENTS;ENABLE_WEBCAM;ENABLE_WWW;ENABLE_CLOUD_SERVICES_COLLAB;ENABLE_CLOUD_SERVICES_COLLAB_SOFTLOCKS;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_HUB;ENABLE_CLOUD_PROJECT_ID;ENABLE_CLOUD_SERVICES_USE_WEBREQUEST;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_HUB;ENABLE_EDITOR_HUB_LICENSE;ENABLE_WEBSOCKET_CLIENT;ENABLE_DIRECTOR_AUDIO;ENABLE_DIRECTOR_TEXTURE;ENABLE_TIMELINE;ENABLE_EDITOR_METRICS;ENABLE_EDITOR_METRICS_CACHING;ENABLE_NATIVE_ARRAY;ENABLE_SPRITE_MASKING;INCLUDE_DYNAMIC_GI;INCLUDE_GI;ENABLE_MONO_BDWGC;PLATFORM_SUPPORTS_MONO;RENDER_SOFTWARE_CURSOR;INCLUDE_PUBNUB;ENABLE_PLAYMODE_TESTS_RUNNER;ENABLE_VIDEO;ENABLE_RMGUI;ENABLE_PACKMAN;ENABLE_CUSTOM_RENDER_TEXTURE;ENABLE_STYLE_SHEETS;ENABLE_LOCALIZATION;PLATFORM_STANDALONE_OSX;PLATFORM_STANDALONE;UNITY_STANDALONE_OSX;UNITY_STANDALONE;ENABLE_SUBSTANCE;ENABLE_GAMECENTER;ENABLE_RUNTIME_GI;ENABLE_MOVIES;ENABLE_NETWORK;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_UNITYWEBREQUEST;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;ENABLE_CLOUD_SERVICES_NATIVE_CRASH_REPORTING;ENABLE_CLUSTERINPUT;ENABLE_VR;ENABLE_AR;ENABLE_SPATIALTRACKING;ENABLE_WEBSOCKET_HOST;ENABLE_MONO;NET_2_0_SUBSET;ENABLE_PROFILER;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_OSX;ENABLE_NATIVE_ARRAY_CHECKS;UNITY_TEAM_LICENSE;CROSS_PLATFORM_INPUT</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <NoWarn>0169</NoWarn>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>Temp\bin\Release\</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <NoWarn>0169</NoWarn>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.XML" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="UnityEngine">
+      <HintPath>/Applications/Unity/Unity.app/Contents/Managed/UnityEngine.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor">
+      <HintPath>/Applications/Unity/Unity.app/Contents/Managed/UnityEditor.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+     <Compile Include="Assets\Plugins\Demigiant\DOTweenPro\DOTweenAnimation.cs" />
+     <Compile Include="Assets\Plugins\Effects or Addons\Camera Filter Pack\Scripts\CameraFilterPack_AAA_Blood.cs" />
+     <Compile Include="Assets\Plugins\Effects or Addons\Camera Filter Pack\Scripts\CameraFilterPack_AAA_SuperComputer.cs" />
+     <Compile Include="Assets\Plugins\Effects or Addons\Camera Filter Pack\Scripts\CameraFilterPack_AAA_SuperHexagon.cs" />
+     <Compile Include="Assets\Plugins\Effects or Addons\Camera Filter Pack\Scripts\CameraFilterPack_AAA_WaterDrop.cs" />
+     <Compile Include="Assets\Plugins\Effects or Addons\Camera Filter Pack\Scripts\CameraFilterPack_Alien_Vision.cs" />
+     <Compile Include="Assets\Plugins\Effects or Addons\Camera Filter Pack\Scripts\CameraFilterPack_Antialiasing_FXAA.cs" />
+     <Compile Include="Assets\Plugins\Effects or Addons\Camera Filter Pack\Scripts\CameraFilterPack_Atmosphere_Snow_8bits.cs" />
+     <Compile Include="Assets\Plugins\Effects or Addons\Camera Filter Pack\Scripts\CameraFilterPack_Blend2Camera_Blend.cs" />
+     <Compile Include="Assets\Plugins\Effects or Addons\Camera Filter Pack\Scripts\CameraFilterPack_Blend2Camera_BlueScreen.cs" />
+     <Compile Include="Assets\Plugins\Effects or Addons\Camera Filter Pack\Scripts\CameraFilterPack_Blend2Camera_Color.cs" />
+     <Compile Include="Assets\Plugins\Effects or Addons\Camera Filter Pack\Scripts\CameraFilterPack_Blend2Camera_ColorBurn.cs" />
+     <Compile Include="Assets\Plugins\Effects or Addons\Camera Filter Pack\Scripts\CameraFilterPack_Blend2Camera_ColorDodge.cs" />
+     <Compile Include="Assets\Plugins\Effects or Addons\Camera Filter Pack\Scripts\CameraFilterPack_Blend2Camera_Darken.cs" />
+     <Compile Include="Assets\Plugins\Effects or Addons\Camera Filter Pack\Scripts\CameraFilterPack_Blend2Camera_DarkerColor.cs" />
+     <Compile Include="Assets\Plugins\Effects or Addons\Camera Filter Pack\Scripts\CameraFilterPack_Blend2Camera_Difference.cs" />
+     <Compile Include="Assets\Plugins\Effects or Addons\Camera Filter Pack\Scripts\CameraFilterPack_Blend2Camera_Divide.cs" />
+     <Compile Include="Assets\Plugins\Effects or Addons\Camera Filter Pack\Scripts\CameraFilterPack_Blend2Camera_Exclusion.cs" />
+     <Compile Include="Assets\Plugins\Effects or Addons\Camera Filter Pack\Scripts\CameraFilterPack_Blend2Camera_GreenScreen.cs" />
+     <Compile Include="Assets\Plugins\Effects or Addons\Camera Filter Pack\Scripts\CameraFilterPack_Blend2Camera_HardLight.cs" />
+     <Compile Include="Assets\Plugins\Effects or Addons\Camera Filter Pack\Scripts\CameraFilterPack_Blend2Camera_HardMix.cs" />
+     <Compile Include="Assets\Plugins\Effects or Addons\Camera Filter Pack\Scripts\CameraFilterPack_Blend2Camera_Hue.cs" />
+     <Compile Include="Assets\Plugins\Effects or Addons\Camera Filter Pack\Scripts\CameraFilterPack_Blend2Camera_Lighten.cs" />
+     <Compile Include="Assets\Plugins\Effects or Addons\Camera Filter Pack\Scripts\CameraFilterPack_Blend2Camera_LighterColor.cs" />
+     <Compile Include="Assets\Plugins\Effects or Addons\Camera Filter Pack\Scripts\CameraFilterPack_Blend2Camera_LinearBurn.cs" />
+     <Compile Include="Assets\Plugins\Effects or Addons\Camera Filter Pack\Scripts\CameraFilterPack_Blend2Camera_LinearDodge.cs" />
+     <Compile Include="Assets\Plugins\Effects or Addons\Camera Filter Pack\Scripts\CameraFilterPack_Blend2Camera_LinearLight.cs" />
+     <Compile Include="Assets\Plugins\Effects or Addons\Camera Filter Pack\Scripts\CameraFilterPack_Blend2Camera_Luminosity.cs" />
+     <Compile Include="Assets\Plugins\Effects or Addons\Camera Filter Pack\Scripts\CameraFilterPack_Blend2Camera_Multiply.cs" />
+     <Compile Include="Assets\Plugins\Effects or Addons\Camera Filter Pack\Scripts\CameraFilterPack_Blend2Camera_Overlay.cs" />
+     <Compile Include="Assets\Plugins\Effects or Addons\Camera Filter Pack\Scripts\CameraFilterPack_Blend2Camera_PhotoshopFilters.cs" />
+     <Compile Include="Assets\Plugins\Effects or Addons\Camera Filter Pack\Scripts\CameraFilterPack_Blend2Camera_PinLight.cs" />
+     <Compile Include="Assets\Plugins\Effects or Addons\Camera Filter Pack\Scripts\CameraFilterPack_Blend2Camera_Saturation.cs" />
+     <Compile Include="Assets\Plugins\Effects or Addons\Camera Filter Pack\Scripts\CameraFilterPack_Blend2Camera_Screen.cs" />
+     <Compile Include="Assets\Plugins\Effects or Addons\Camera Filter Pack\Scripts\CameraFilterPack_Blend2Camera_SoftLight.cs" />
+     <Compile Include="Assets\Plugins\Effects or Addons\Camera Filter Pack\Scripts\CameraFilterPack_Blend2Camera_SplitScreen.cs" />
+     <Compile Include="Assets\Plugins\Effects or Addons\Camera Filter Pack\Scripts\CameraFilterPack_Blend2Camera_Subtract.cs" />
+     <Compile Include="Assets\Plugins\Effects or Addons\Camera Filter Pack\Scripts\CameraFilterPack_Blend2Camera_VividLight.cs" />
+     <Compile Include="Assets\Plugins\Effects or Addons\Camera Filter Pack\Scripts\CameraFilterPack_Blizzard.cs" />
+     <Compile Include="Assets\Plugins\Effects or Addons\Camera Filter Pack\Scripts\CameraFilterPack_Blur_Bloom.cs" />
+     <Compile Include="Assets\Plugins\Effects or Addons\Camera Filter Pack\Scripts\CameraFilterPack_Blur_BlurHole.cs" />
+     <Compile Include="Assets\Plugins\Effects or Addons\Camera Filter Pack\Scripts\CameraFilterPack_Blur_Blurry.cs" />
+     <Compile Include="Assets\Plugins\Effects or Addons\Camera Filter Pack\Scripts\CameraFilterPack_Blur_Dithering2x2.cs" />
+     <Compile Include="Assets\Plugins\Effects or Addons\Camera Filter Pack\Scripts\CameraFilterPack_Blur_DitherOffset.cs" />
+     <Compile Include="Assets\Plugins\Effects or Addons\Camera Filter Pack\Scripts\CameraFilterPack_Blur_Focus.cs" />
+     <Compile Include="Assets\Plugins\Effects or Addons\Camera Filter Pack\Scripts\CameraFilterPack_Blur_GaussianBlur.cs" />
+     <Compile Include="Assets\Plugins\Effects or Addons\Camera Filter Pack\Scripts\CameraFilterPack_Blur_Movie.cs" />
+     <Compile Include="Assets\Plugins\Effects or Addons\Camera Filter Pack\Scripts\CameraFilterPack_Blur_Noise.cs" />
+     <Compile Include="Assets\Plugins\Effects or Addons\Camera Filter Pack\Scripts\CameraFilterPack_Blur_Radial.cs" />
+     <Compile Include="Assets\Plugins\Effects or Addons\Camera Filter Pack\Scripts\CameraFilterPack_Blur_Radial_Fast.cs" />
+     <Compile Include="Assets\Plugins\Effects or Addons\Camera Filter Pack\Scripts\CameraFilterPack_Blur_Regular.cs" />
+     <Compile Include="Assets\Plugins\Effects or Addons\Camera Filter Pack\Scripts\CameraFilterPack_Blur_Steam.cs" />
+     <Compile Include="Assets\Plugins\Effects or Addons\Camera Filter Pack\Scripts\CameraFilterPack_Color_BrightContrastSaturation.cs" />
+     <Compile Include="Assets\Plugins\Effects or Addons\Camera Filter Pack\Scripts\CameraFilterPack_Color_Chromatic_Aberration.cs" />
+     <Compile Include="Assets\Plugins\Effects or Addons\Camera Filter Pack\Scripts\CameraFilterPack_Color_Contrast.cs" />
+     <Compile Include="Assets\Plugins\Effects or Addons\Camera Filter Pack\Scripts\CameraFilterPack_Color_GrayScale.cs" />
+     <Compile Include="Assets\Plugins\Effects or Addons\Camera Filter Pack\Scripts\CameraFilterPack_Color_Invert.cs" />
+     <Compile Include="Assets\Plugins\Effects or Addons\Camera Filter Pack\Scripts\CameraFilterPack_Color_Noise.cs" />
+     <Compile Include="Assets\Plugins\Effects or Addons\Camera Filter Pack\Scripts\CameraFilterPack_Color_RGB.cs" />
+     <Compile Include="Assets\Plugins\Effects or Addons\Camera Filter Pack\Scripts\CameraFilterPack_Color_Sepia.cs" />
+     <Compile Include="Assets\Plugins\Effects or Addons\Camera Filter Pack\Scripts\CameraFilterPack_Color_Switching.cs" />
+     <Compile Include="Assets\Plugins\Effects or Addons\Camera Filter Pack\Scripts\CameraFilterPack_Color_YUV.cs" />
+     <Compile Include="Assets\Plugins\Effects or Addons\Camera Filter Pack\Scripts\CameraFilterPack_Colors_Adjust_ColorRGB.cs" />
+     <Compile Include="Assets\Plugins\Effects or Addons\Camera Filter Pack\Scripts\CameraFilterPack_Colors_Adjust_FullColors.cs" />
+     <Compile Include="Assets\Plugins\Effects or Addons\Camera Filter Pack\Scripts\CameraFilterPack_Colors_Adjust_PreFilters.cs" />
+     <Compile Include="Assets\Plugins\Effects or Addons\Camera Filter Pack\Scripts\CameraFilterPack_Colors_Brightness.cs" />
+     <Compile Include="Assets\Plugins\Effects or Addons\Camera Filter Pack\Scripts\CameraFilterPack_Colors_DarkColor.cs" />
+     <Compile Include="Assets\Plugins\Effects or Addons\Camera Filter Pack\Scripts\CameraFilterPack_Colors_HSV.cs" />
+     <Compile Include="Assets\Plugins\Effects or Addons\Camera Filter Pack\Scripts\CameraFilterPack_Colors_HUE_Rotate.cs" />
+     <Compile Include="Assets\Plugins\Effects or Addons\Camera Filter Pack\Scripts\CameraFilterPack_Colors_NewPosterize.cs" />
+     <Compile Include="Assets\Plugins\Effects or Addons\Camera Filter Pack\Scripts\CameraFilterPack_Colors_Threshold.cs" />
+     <Compile Include="Assets\Plugins\Effects or Addons\Camera Filter Pack\Scripts\CameraFilterPack_Distortion_BigFace.cs" />
+     <Compile Include="Assets\Plugins\Effects or Addons\Camera Filter Pack\Scripts\CameraFilterPack_Distortion_BlackHole.cs" />
+     <Compile Include="Assets\Plugins\Effects or Addons\Camera Filter Pack\Scripts\CameraFilterPack_Distortion_Dissipation.cs" />
+     <Compile Include="Assets\Plugins\Effects or Addons\Camera Filter Pack\Scripts\CameraFilterPack_Distortion_Dream.cs" />
+     <Compile Include="Assets\Plugins\Effects or Addons\Camera Filter Pack\Scripts\CameraFilterPack_Distortion_Dream2.cs" />
+     <Compile Include="Assets\Plugins\Effects or Addons\Camera Filter Pack\Scripts\CameraFilterPack_Distortion_FishEye.cs" />
+     <Compile Include="Assets\Plugins\Effects or Addons\Camera Filter Pack\Scripts\CameraFilterPack_Distortion_Flag.cs" />
+     <Compile Include="Assets\Plugins\Effects or Addons\Camera Filter Pack\Scripts\CameraFilterPack_Distortion_Flush.cs" />
+     <Compile Include="Assets\Plugins\Effects or Addons\Camera Filter Pack\Scripts\CameraFilterPack_Distortion_Half_Sphere.cs" />
+     <Compile Include="Assets\Plugins\Effects or Addons\Camera Filter Pack\Scripts\CameraFilterPack_Distortion_Heat.cs" />
+     <Compile Include="Assets\Plugins\Effects or Addons\Camera Filter Pack\Scripts\CameraFilterPack_Distortion_Lens.cs" />
+     <Compile Include="Assets\Plugins\Effects or Addons\Camera Filter Pack\Scripts\CameraFilterPack_Distortion_Noise.cs" />
+     <Compile Include="Assets\Plugins\Effects or Addons\Camera Filter Pack\Scripts\CameraFilterPack_Distortion_ShockWave.cs" />
+     <Compile Include="Assets\Plugins\Effects or Addons\Camera Filter Pack\Scripts\CameraFilterPack_Distortion_Water_Drop.cs" />
+     <Compile Include="Assets\Plugins\Effects or Addons\Camera Filter Pack\Scripts\CameraFilterPack_Distortion_Wave_Horizontal.cs" />
+     <Compile Include="Assets\Plugins\Effects or Addons\Camera Filter Pack\Scripts\CameraFilterPack_Drawing_CellShading.cs" />
+     <Compile Include="Assets\Plugins\Effects or Addons\Camera Filter Pack\Scripts\CameraFilterPack_Drawing_CellShading2.cs" />
+     <Compile Include="Assets\Plugins\Effects or Addons\Camera Filter Pack\Scripts\CameraFilterPack_Drawing_Comics.cs" />
+     <Compile Include="Assets\Plugins\Effects or Addons\Camera Filter Pack\Scripts\CameraFilterPack_Drawing_Crosshatch.cs" />
+     <Compile Include="Assets\Plugins\Effects or Addons\Camera Filter Pack\Scripts\CameraFilterPack_Drawing_Curve.cs" />
+     <Compile Include="Assets\Plugins\Effects or Addons\Camera Filter Pack\Scripts\CameraFilterPack_Drawing_EnhancedComics.cs" />
+     <Compile Include="Assets\Plugins\Effects or Addons\Camera Filter Pack\Scripts\CameraFilterPack_Drawing_Halftone.cs" />
+     <Compile Include="Assets\Plugins\Effects or Addons\Camera Filter Pack\Scripts\CameraFilterPack_Drawing_Laplacian.cs" />
+     <Compile Include="Assets\Plugins\Effects or Addons\Camera Filter Pack\Scripts\CameraFilterPack_Drawing_Lines.cs" />
+     <Compile Include="Assets\Plugins\Effects or Addons\Camera Filter Pack\Scripts\CameraFilterPack_Drawing_Manga.cs" />
+     <Compile Include="Assets\Plugins\Effects or Addons\Camera Filter Pack\Scripts\CameraFilterPack_Drawing_Manga_Color.cs" />
+     <Compile Include="Assets\Plugins\Effects or Addons\Camera Filter Pack\Scripts\CameraFilterPack_Drawing_Manga_Flash.cs" />
+     <Compile Include="Assets\Plugins\Effects or Addons\Camera Filter Pack\Scripts\CameraFilterPack_Drawing_Manga_FlashWhite.cs" />
+     <Compile Include="Assets\Plugins\Effects or Addons\Camera Filter Pack\Scripts\CameraFilterPack_Drawing_Manga2.cs" />
+     <Compile Include="Assets\Plugins\Effects or Addons\Camera Filter Pack\Scripts\CameraFilterPack_Drawing_Manga3.cs" />
+     <Compile Include="Assets\Plugins\Effects or Addons\Camera Filter Pack\Scripts\CameraFilterPack_Drawing_Manga4.cs" />
+     <Compile Include="Assets\Plugins\Effects or Addons\Camera Filter Pack\Scripts\CameraFilterPack_Drawing_Manga5.cs" />
+     <Compile Include="Assets\Plugins\Effects or Addons\Camera Filter Pack\Scripts\CameraFilterPack_Drawing_NewCellShading.cs" />
+     <Compile Include="Assets\Plugins\Effects or Addons\Camera Filter Pack\Scripts\CameraFilterPack_Drawing_Toon.cs" />
+     <Compile Include="Assets\Plugins\Effects or Addons\Camera Filter Pack\Scripts\CameraFilterPack_Edge_BlackLine.cs" />
+     <Compile Include="Assets\Plugins\Effects or Addons\Camera Filter Pack\Scripts\CameraFilterPack_Edge_Edge_filter.cs" />
+     <Compile Include="Assets\Plugins\Effects or Addons\Camera Filter Pack\Scripts\CameraFilterPack_Edge_Golden.cs" />
+     <Compile Include="Assets\Plugins\Effects or Addons\Camera Filter Pack\Scripts\CameraFilterPack_Edge_Neon.cs" />
+     <Compile Include="Assets\Plugins\Effects or Addons\Camera Filter Pack\Scripts\CameraFilterPack_Edge_Sigmoid.cs" />
+     <Compile Include="Assets\Plugins\Effects or Addons\Camera Filter Pack\Scripts\CameraFilterPack_Edge_Sobel.cs" />
+     <Compile Include="Assets\Plugins\Effects or Addons\Camera Filter Pack\Scripts\CameraFilterPack_EXTRA_Rotation.cs" />
+     <Compile Include="Assets\Plugins\Effects or Addons\Camera Filter Pack\Scripts\CameraFilterPack_EXTRA_SHOWFPS.cs" />
+     <Compile Include="Assets\Plugins\Effects or Addons\Camera Filter Pack\Scripts\CameraFilterPack_EyesVision_1.cs" />
+     <Compile Include="Assets\Plugins\Effects or Addons\Camera Filter Pack\Scripts\CameraFilterPack_EyesVision_2.cs" />
+     <Compile Include="Assets\Plugins\Effects or Addons\Camera Filter Pack\Scripts\CameraFilterPack_Film_ColorPerfection.cs" />
+     <Compile Include="Assets\Plugins\Effects or Addons\Camera Filter Pack\Scripts\CameraFilterPack_Film_Grain.cs" />
+     <Compile Include="Assets\Plugins\Effects or Addons\Camera Filter Pack\Scripts\CameraFilterPack_FX_8bits.cs" />
+     <Compile Include="Assets\Plugins\Effects or Addons\Camera Filter Pack\Scripts\CameraFilterPack_FX_8bits_gb.cs" />
+     <Compile Include="Assets\Plugins\Effects or Addons\Camera Filter Pack\Scripts\CameraFilterPack_FX_Ascii.cs" />
+     <Compile Include="Assets\Plugins\Effects or Addons\Camera Filter Pack\Scripts\CameraFilterPack_FX_DigitalMatrix.cs" />
+     <Compile Include="Assets\Plugins\Effects or Addons\Camera Filter Pack\Scripts\CameraFilterPack_FX_DigitalMatrixDistortion.cs" />
+     <Compile Include="Assets\Plugins\Effects or Addons\Camera Filter Pack\Scripts\CameraFilterPack_FX_Dot_Circle.cs" />
+     <Compile Include="Assets\Plugins\Effects or Addons\Camera Filter Pack\Scripts\CameraFilterPack_FX_Drunk.cs" />
+     <Compile Include="Assets\Plugins\Effects or Addons\Camera Filter Pack\Scripts\CameraFilterPack_FX_Drunk2.cs" />
+     <Compile Include="Assets\Plugins\Effects or Addons\Camera Filter Pack\Scripts\CameraFilterPack_FX_EarthQuake.cs" />
+     <Compile Include="Assets\Plugins\Effects or Addons\Camera Filter Pack\Scripts\CameraFilterPack_FX_Funk.cs" />
+     <Compile Include="Assets\Plugins\Effects or Addons\Camera Filter Pack\Scripts\CameraFilterPack_FX_Glitch1.cs" />
+     <Compile Include="Assets\Plugins\Effects or Addons\Camera Filter Pack\Scripts\CameraFilterPack_FX_Glitch2.cs" />
+     <Compile Include="Assets\Plugins\Effects or Addons\Camera Filter Pack\Scripts\CameraFilterPack_FX_Glitch3.cs" />
+     <Compile Include="Assets\Plugins\Effects or Addons\Camera Filter Pack\Scripts\CameraFilterPack_FX_Grid.cs" />
+     <Compile Include="Assets\Plugins\Effects or Addons\Camera Filter Pack\Scripts\CameraFilterPack_FX_Hexagon.cs" />
+     <Compile Include="Assets\Plugins\Effects or Addons\Camera Filter Pack\Scripts\CameraFilterPack_FX_Hexagon_Black.cs" />
+     <Compile Include="Assets\Plugins\Effects or Addons\Camera Filter Pack\Scripts\CameraFilterPack_FX_Hypno.cs" />
+     <Compile Include="Assets\Plugins\Effects or Addons\Camera Filter Pack\Scripts\CameraFilterPack_FX_InverChromiLum.cs" />
+     <Compile Include="Assets\Plugins\Effects or Addons\Camera Filter Pack\Scripts\CameraFilterPack_FX_Mirror.cs" />
+     <Compile Include="Assets\Plugins\Effects or Addons\Camera Filter Pack\Scripts\CameraFilterPack_FX_Plasma.cs" />
+     <Compile Include="Assets\Plugins\Effects or Addons\Camera Filter Pack\Scripts\CameraFilterPack_FX_Psycho.cs" />
+     <Compile Include="Assets\Plugins\Effects or Addons\Camera Filter Pack\Scripts\CameraFilterPack_FX_Scan.cs" />
+     <Compile Include="Assets\Plugins\Effects or Addons\Camera Filter Pack\Scripts\CameraFilterPack_FX_Screens.cs" />
+     <Compile Include="Assets\Plugins\Effects or Addons\Camera Filter Pack\Scripts\CameraFilterPack_FX_Spot.cs" />
+     <Compile Include="Assets\Plugins\Effects or Addons\Camera Filter Pack\Scripts\CameraFilterPack_FX_superDot.cs" />
+     <Compile Include="Assets\Plugins\Effects or Addons\Camera Filter Pack\Scripts\CameraFilterPack_FX_ZebraColor.cs" />
+     <Compile Include="Assets\Plugins\Effects or Addons\Camera Filter Pack\Scripts\CameraFilterPack_Glitch_Mozaic.cs" />
+     <Compile Include="Assets\Plugins\Effects or Addons\Camera Filter Pack\Scripts\CameraFilterPack_Gradients_Ansi.cs" />
+     <Compile Include="Assets\Plugins\Effects or Addons\Camera Filter Pack\Scripts\CameraFilterPack_Gradients_Desert.cs" />
+     <Compile Include="Assets\Plugins\Effects or Addons\Camera Filter Pack\Scripts\CameraFilterPack_Gradients_ElectricGradient.cs" />
+     <Compile Include="Assets\Plugins\Effects or Addons\Camera Filter Pack\Scripts\CameraFilterPack_Gradients_FireGradient.cs" />
+     <Compile Include="Assets\Plugins\Effects or Addons\Camera Filter Pack\Scripts\CameraFilterPack_Gradients_Hue.cs" />
+     <Compile Include="Assets\Plugins\Effects or Addons\Camera Filter Pack\Scripts\CameraFilterPack_Gradients_NeonGradient.cs" />
+     <Compile Include="Assets\Plugins\Effects or Addons\Camera Filter Pack\Scripts\CameraFilterPack_Gradients_Rainbow.cs" />
+     <Compile Include="Assets\Plugins\Effects or Addons\Camera Filter Pack\Scripts\CameraFilterPack_Gradients_Stripe.cs" />
+     <Compile Include="Assets\Plugins\Effects or Addons\Camera Filter Pack\Scripts\CameraFilterPack_Gradients_Tech.cs" />
+     <Compile Include="Assets\Plugins\Effects or Addons\Camera Filter Pack\Scripts\CameraFilterPack_Gradients_Therma.cs" />
+     <Compile Include="Assets\Plugins\Effects or Addons\Camera Filter Pack\Scripts\CameraFilterPack_Light_Rainbow.cs" />
+     <Compile Include="Assets\Plugins\Effects or Addons\Camera Filter Pack\Scripts\CameraFilterPack_Light_Rainbow2.cs" />
+     <Compile Include="Assets\Plugins\Effects or Addons\Camera Filter Pack\Scripts\CameraFilterPack_Light_Water.cs" />
+     <Compile Include="Assets\Plugins\Effects or Addons\Camera Filter Pack\Scripts\CameraFilterPack_Light_Water2.cs" />
+     <Compile Include="Assets\Plugins\Effects or Addons\Camera Filter Pack\Scripts\CameraFilterPack_NightVision_4.cs" />
+     <Compile Include="Assets\Plugins\Effects or Addons\Camera Filter Pack\Scripts\CameraFilterPack_NightVisionFX.cs" />
+     <Compile Include="Assets\Plugins\Effects or Addons\Camera Filter Pack\Scripts\CameraFilterPack_Oculus_NightVision1.cs" />
+     <Compile Include="Assets\Plugins\Effects or Addons\Camera Filter Pack\Scripts\CameraFilterPack_Oculus_NightVision2.cs" />
+     <Compile Include="Assets\Plugins\Effects or Addons\Camera Filter Pack\Scripts\CameraFilterPack_Oculus_NightVision3.cs" />
+     <Compile Include="Assets\Plugins\Effects or Addons\Camera Filter Pack\Scripts\CameraFilterPack_Oculus_NightVision5.cs" />
+     <Compile Include="Assets\Plugins\Effects or Addons\Camera Filter Pack\Scripts\CameraFilterPack_Oculus_ThermaVision.cs" />
+     <Compile Include="Assets\Plugins\Effects or Addons\Camera Filter Pack\Scripts\CameraFilterPack_OldFilm_Cutting1.cs" />
+     <Compile Include="Assets\Plugins\Effects or Addons\Camera Filter Pack\Scripts\CameraFilterPack_OldFilm_Cutting2.cs" />
+     <Compile Include="Assets\Plugins\Effects or Addons\Camera Filter Pack\Scripts\CameraFilterPack_Pixel_Pixelisation.cs" />
+     <Compile Include="Assets\Plugins\Effects or Addons\Camera Filter Pack\Scripts\CameraFilterPack_Pixelisation_Dot.cs" />
+     <Compile Include="Assets\Plugins\Effects or Addons\Camera Filter Pack\Scripts\CameraFilterPack_Pixelisation_OilPaint.cs" />
+     <Compile Include="Assets\Plugins\Effects or Addons\Camera Filter Pack\Scripts\CameraFilterPack_Pixelisation_OilPaintHQ.cs" />
+     <Compile Include="Assets\Plugins\Effects or Addons\Camera Filter Pack\Scripts\CameraFilterPack_Real_VHS.cs" />
+     <Compile Include="Assets\Plugins\Effects or Addons\Camera Filter Pack\Scripts\CameraFilterPack_Retro_Loading.cs" />
+     <Compile Include="Assets\Plugins\Effects or Addons\Camera Filter Pack\Scripts\CameraFilterPack_Sharpen_Sharpen.cs" />
+     <Compile Include="Assets\Plugins\Effects or Addons\Camera Filter Pack\Scripts\CameraFilterPack_Special_Bubble.cs" />
+     <Compile Include="Assets\Plugins\Effects or Addons\Camera Filter Pack\Scripts\CameraFilterPack_TV_50.cs" />
+     <Compile Include="Assets\Plugins\Effects or Addons\Camera Filter Pack\Scripts\CameraFilterPack_TV_80.cs" />
+     <Compile Include="Assets\Plugins\Effects or Addons\Camera Filter Pack\Scripts\CameraFilterPack_TV_ARCADE.cs" />
+     <Compile Include="Assets\Plugins\Effects or Addons\Camera Filter Pack\Scripts\CameraFilterPack_TV_ARCADE_2.cs" />
+     <Compile Include="Assets\Plugins\Effects or Addons\Camera Filter Pack\Scripts\CameraFilterPack_TV_Artefact.cs" />
+     <Compile Include="Assets\Plugins\Effects or Addons\Camera Filter Pack\Scripts\CameraFilterPack_TV_BrokenGlass.cs" />
+     <Compile Include="Assets\Plugins\Effects or Addons\Camera Filter Pack\Scripts\CameraFilterPack_TV_BrokenGlass2.cs" />
+     <Compile Include="Assets\Plugins\Effects or Addons\Camera Filter Pack\Scripts\CameraFilterPack_TV_Chromatical.cs" />
+     <Compile Include="Assets\Plugins\Effects or Addons\Camera Filter Pack\Scripts\CameraFilterPack_TV_Chromatical2.cs" />
+     <Compile Include="Assets\Plugins\Effects or Addons\Camera Filter Pack\Scripts\CameraFilterPack_TV_CompressionFX.cs" />
+     <Compile Include="Assets\Plugins\Effects or Addons\Camera Filter Pack\Scripts\CameraFilterPack_TV_Distorted.cs" />
+     <Compile Include="Assets\Plugins\Effects or Addons\Camera Filter Pack\Scripts\CameraFilterPack_TV_LED.cs" />
+     <Compile Include="Assets\Plugins\Effects or Addons\Camera Filter Pack\Scripts\CameraFilterPack_TV_Noise.cs" />
+     <Compile Include="Assets\Plugins\Effects or Addons\Camera Filter Pack\Scripts\CameraFilterPack_TV_Old.cs" />
+     <Compile Include="Assets\Plugins\Effects or Addons\Camera Filter Pack\Scripts\CameraFilterPack_TV_Old_Movie.cs" />
+     <Compile Include="Assets\Plugins\Effects or Addons\Camera Filter Pack\Scripts\CameraFilterPack_TV_Old_Movie_2.cs" />
+     <Compile Include="Assets\Plugins\Effects or Addons\Camera Filter Pack\Scripts\CameraFilterPack_TV_PlanetMars.cs" />
+     <Compile Include="Assets\Plugins\Effects or Addons\Camera Filter Pack\Scripts\CameraFilterPack_TV_Posterize.cs" />
+     <Compile Include="Assets\Plugins\Effects or Addons\Camera Filter Pack\Scripts\CameraFilterPack_TV_Rgb.cs" />
+     <Compile Include="Assets\Plugins\Effects or Addons\Camera Filter Pack\Scripts\CameraFilterPack_TV_Tiles.cs" />
+     <Compile Include="Assets\Plugins\Effects or Addons\Camera Filter Pack\Scripts\CameraFilterPack_TV_Vcr.cs" />
+     <Compile Include="Assets\Plugins\Effects or Addons\Camera Filter Pack\Scripts\CameraFilterPack_TV_VHS.cs" />
+     <Compile Include="Assets\Plugins\Effects or Addons\Camera Filter Pack\Scripts\CameraFilterPack_TV_VHS_Rewind.cs" />
+     <Compile Include="Assets\Plugins\Effects or Addons\Camera Filter Pack\Scripts\CameraFilterPack_TV_Video3D.cs" />
+     <Compile Include="Assets\Plugins\Effects or Addons\Camera Filter Pack\Scripts\CameraFilterPack_TV_Videoflip.cs" />
+     <Compile Include="Assets\Plugins\Effects or Addons\Camera Filter Pack\Scripts\CameraFilterPack_TV_Vintage.cs" />
+     <Compile Include="Assets\Plugins\Effects or Addons\Camera Filter Pack\Scripts\CameraFilterPack_TV_WideScreenCircle.cs" />
+     <Compile Include="Assets\Plugins\Effects or Addons\Camera Filter Pack\Scripts\CameraFilterPack_TV_WideScreenHorizontal.cs" />
+     <Compile Include="Assets\Plugins\Effects or Addons\Camera Filter Pack\Scripts\CameraFilterPack_TV_WideScreenHV.cs" />
+     <Compile Include="Assets\Plugins\Effects or Addons\Camera Filter Pack\Scripts\CameraFilterPack_TV_WideScreenVertical.cs" />
+     <Compile Include="Assets\Plugins\Effects or Addons\Camera Filter Pack\Scripts\CameraFilterPack_VHS_Tracking.cs" />
+     <Compile Include="Assets\Plugins\Effects or Addons\Camera Filter Pack\Scripts\CameraFilterPack_Vision_Aura.cs" />
+     <Compile Include="Assets\Plugins\Effects or Addons\Camera Filter Pack\Scripts\CameraFilterPack_Vision_AuraDistortion.cs" />
+     <Compile Include="Assets\Plugins\Effects or Addons\Camera Filter Pack\Scripts\CameraFilterPack_Vision_Blood.cs" />
+     <Compile Include="Assets\Plugins\Effects or Addons\Camera Filter Pack\Scripts\CameraFilterPack_Vision_Crystal.cs" />
+     <Compile Include="Assets\Plugins\Effects or Addons\Camera Filter Pack\Scripts\CameraFilterPack_Vision_Drost.cs" />
+     <Compile Include="Assets\Plugins\Effects or Addons\Camera Filter Pack\Scripts\CameraFilterPack_Vision_Plasma.cs" />
+     <Compile Include="Assets\Plugins\Effects or Addons\Camera Filter Pack\Scripts\CameraFilterPack_Vision_Psycho.cs" />
+     <Compile Include="Assets\Plugins\Effects or Addons\Camera Filter Pack\Scripts\CameraFilterPack_Vision_Rainbow.cs" />
+     <Compile Include="Assets\Plugins\Effects or Addons\Camera Filter Pack\Scripts\CameraFilterPack_Vision_Tunnel.cs" />
+     <Compile Include="Assets\Plugins\Effects or Addons\Camera Filter Pack\Scripts\CameraFilterPack_Vision_Warp.cs" />
+     <Compile Include="Assets\Plugins\Effects or Addons\Camera Filter Pack\Scripts\CameraFilterPack_Vision_Warp2.cs" />
+     <Compile Include="Assets\Plugins\Effects or Addons\Cinema Suite\Cinema Director\Cutscene Items\Actor Items\Animation\BlendAnimationEvent.cs" />
+     <Compile Include="Assets\Plugins\Effects or Addons\Cinema Suite\Cinema Director\Cutscene Items\Actor Items\Animation\CrossFadeAnimationEvent.cs" />
+     <Compile Include="Assets\Plugins\Effects or Addons\Cinema Suite\Cinema Director\Cutscene Items\Actor Items\Animation\PlayAnimationEvent.cs" />
+     <Compile Include="Assets\Plugins\Effects or Addons\Cinema Suite\Cinema Director\Cutscene Items\Actor Items\Animation\RewindAnimationEvent.cs" />
+     <Compile Include="Assets\Plugins\Effects or Addons\Cinema Suite\Cinema Director\Cutscene Items\Actor Items\Animation\SampleAnimationEvent.cs" />
+     <Compile Include="Assets\Plugins\Effects or Addons\Cinema Suite\Cinema Director\Cutscene Items\Actor Items\Animation\StopAnimationEvent.cs" />
+     <Compile Include="Assets\Plugins\Effects or Addons\Cinema Suite\Cinema Director\Cutscene Items\Actor Items\Animator\CrossFadeAnimatorEvent.cs" />
+     <Compile Include="Assets\Plugins\Effects or Addons\Cinema Suite\Cinema Director\Cutscene Items\Actor Items\Animator\LookAtTarget.cs" />
+     <Compile Include="Assets\Plugins\Effects or Addons\Cinema Suite\Cinema Director\Cutscene Items\Actor Items\Animator\MatchTargetEvent.cs" />
+     <Compile Include="Assets\Plugins\Effects or Addons\Cinema Suite\Cinema Director\Cutscene Items\Actor Items\Animator\PlayAnimatorEvent.cs" />
+     <Compile Include="Assets\Plugins\Effects or Addons\Cinema Suite\Cinema Director\Cutscene Items\Actor Items\Animator\SetBoolAnimatorEvent.cs" />
+     <Compile Include="Assets\Plugins\Effects or Addons\Cinema Suite\Cinema Director\Cutscene Items\Actor Items\Animator\SetFloatAnimatorEvent.cs" />
+     <Compile Include="Assets\Plugins\Effects or Addons\Cinema Suite\Cinema Director\Cutscene Items\Actor Items\Animator\SetIKPositionAnimatorEvent.cs" />
+     <Compile Include="Assets\Plugins\Effects or Addons\Cinema Suite\Cinema Director\Cutscene Items\Actor Items\Animator\SetIKPositionWeightAnimatorEvent.cs" />
+     <Compile Include="Assets\Plugins\Effects or Addons\Cinema Suite\Cinema Director\Cutscene Items\Actor Items\Animator\SetIKRotationAnimatorEvent.cs" />
+     <Compile Include="Assets\Plugins\Effects or Addons\Cinema Suite\Cinema Director\Cutscene Items\Actor Items\Animator\SetIKRotationWeightAnimatorEvent.cs" />
+     <Compile Include="Assets\Plugins\Effects or Addons\Cinema Suite\Cinema Director\Cutscene Items\Actor Items\Animator\SetIntegerAnimatorEvent.cs" />
+     <Compile Include="Assets\Plugins\Effects or Addons\Cinema Suite\Cinema Director\Cutscene Items\Actor Items\Animator\SetLayerWeightAnimatorEvent.cs" />
+     <Compile Include="Assets\Plugins\Effects or Addons\Cinema Suite\Cinema Director\Cutscene Items\Actor Items\Animator\SetLookAtPositionAnimatorEvent.cs" />
+     <Compile Include="Assets\Plugins\Effects or Addons\Cinema Suite\Cinema Director\Cutscene Items\Actor Items\Animator\SetLookAtWeightAnimatorEvent.cs" />
+     <Compile Include="Assets\Plugins\Effects or Addons\Cinema Suite\Cinema Director\Cutscene Items\Actor Items\Animator\SetTargetAnimatorEvent.cs" />
+     <Compile Include="Assets\Plugins\Effects or Addons\Cinema Suite\Cinema Director\Cutscene Items\Actor Items\Animator\SetTriggerAnimatorEvent.cs" />
+     <Compile Include="Assets\Plugins\Effects or Addons\Cinema Suite\Cinema Director\Cutscene Items\Actor Items\AudioSource\PauseAudioEvent.cs" />
+     <Compile Include="Assets\Plugins\Effects or Addons\Cinema Suite\Cinema Director\Cutscene Items\Actor Items\AudioSource\PlayAudioEvent.cs" />
+     <Compile Include="Assets\Plugins\Effects or Addons\Cinema Suite\Cinema Director\Cutscene Items\Actor Items\AudioSource\PlayOneShotAudioEvent.cs" />
+     <Compile Include="Assets\Plugins\Effects or Addons\Cinema Suite\Cinema Director\Cutscene Items\Actor Items\AudioSource\StopAudioEvent.cs" />
+     <Compile Include="Assets\Plugins\Effects or Addons\Cinema Suite\Cinema Director\Cutscene Items\Actor Items\GameObject\DisableBehaviour.cs" />
+     <Compile Include="Assets\Plugins\Effects or Addons\Cinema Suite\Cinema Director\Cutscene Items\Actor Items\GameObject\DisableGameObject.cs" />
+     <Compile Include="Assets\Plugins\Effects or Addons\Cinema Suite\Cinema Director\Cutscene Items\Actor Items\GameObject\EnableBehaviour.cs" />
+     <Compile Include="Assets\Plugins\Effects or Addons\Cinema Suite\Cinema Director\Cutscene Items\Actor Items\GameObject\EnableGameObject.cs" />
+     <Compile Include="Assets\Plugins\Effects or Addons\Cinema Suite\Cinema Director\Cutscene Items\Actor Items\GameObject\EnableGameObjectAction.cs" />
+     <Compile Include="Assets\Plugins\Effects or Addons\Cinema Suite\Cinema Director\Cutscene Items\Actor Items\GameObject\SendMessageGameObject.cs" />
+     <Compile Include="Assets\Plugins\Effects or Addons\Cinema Suite\Cinema Director\Cutscene Items\Actor Items\Light\SetColorLight.cs" />
+     <Compile Include="Assets\Plugins\Effects or Addons\Cinema Suite\Cinema Director\Cutscene Items\Actor Items\Light\SetIntensityLight.cs" />
+     <Compile Include="Assets\Plugins\Effects or Addons\Cinema Suite\Cinema Director\Cutscene Items\Actor Items\Navigation\SetDestinationEvent.cs" />
+     <Compile Include="Assets\Plugins\Effects or Addons\Cinema Suite\Cinema Director\Cutscene Items\Actor Items\Rigidbody\ApplyForceEvent.cs" />
+     <Compile Include="Assets\Plugins\Effects or Addons\Cinema Suite\Cinema Director\Cutscene Items\Actor Items\Rigidbody\ApplyTorqueEvent.cs" />
+     <Compile Include="Assets\Plugins\Effects or Addons\Cinema Suite\Cinema Director\Cutscene Items\Actor Items\Rigidbody\RigidbodySleepEvent.cs" />
+     <Compile Include="Assets\Plugins\Effects or Addons\Cinema Suite\Cinema Director\Cutscene Items\Actor Items\Rigidbody\RigidbodyWakeUpEvent.cs" />
+     <Compile Include="Assets\Plugins\Effects or Addons\Cinema Suite\Cinema Director\Cutscene Items\Actor Items\Rigidbody\SetMassEvent.cs" />
+     <Compile Include="Assets\Plugins\Effects or Addons\Cinema Suite\Cinema Director\Cutscene Items\Actor Items\Rigidbody\ToggleGravityEvent.cs" />
+     <Compile Include="Assets\Plugins\Effects or Addons\Cinema Suite\Cinema Director\Cutscene Items\Actor Items\Transform\AttachChildrenEvent.cs" />
+     <Compile Include="Assets\Plugins\Effects or Addons\Cinema Suite\Cinema Director\Cutscene Items\Actor Items\Transform\DetachChildrenEvent.cs" />
+     <Compile Include="Assets\Plugins\Effects or Addons\Cinema Suite\Cinema Director\Cutscene Items\Actor Items\Transform\SetParent.cs" />
+     <Compile Include="Assets\Plugins\Effects or Addons\Cinema Suite\Cinema Director\Cutscene Items\Actor Items\Transform\SetPositionEvent.cs" />
+     <Compile Include="Assets\Plugins\Effects or Addons\Cinema Suite\Cinema Director\Cutscene Items\Actor Items\Transform\SetTransformEvent.cs" />
+     <Compile Include="Assets\Plugins\Effects or Addons\Cinema Suite\Cinema Director\Cutscene Items\Actor Items\Transform\TransformLookAtAction.cs" />
+     <Compile Include="Assets\Plugins\Effects or Addons\Cinema Suite\Cinema Director\Cutscene Items\Core\CinemaAudio.cs" />
+     <Compile Include="Assets\Plugins\Effects or Addons\Cinema Suite\Cinema Director\Cutscene Items\Core\CinemaShot.cs" />
+     <Compile Include="Assets\Plugins\Effects or Addons\Cinema Suite\Cinema Director\Cutscene Items\Global Items\AudioSource\PlayClipAtPointAudioEvent.cs" />
+     <Compile Include="Assets\Plugins\Effects or Addons\Cinema Suite\Cinema Director\Cutscene Items\Global Items\Cutscene\PauseCutscene.cs" />
+     <Compile Include="Assets\Plugins\Effects or Addons\Cinema Suite\Cinema Director\Cutscene Items\Global Items\Cutscene\PlayCutscene.cs" />
+     <Compile Include="Assets\Plugins\Effects or Addons\Cinema Suite\Cinema Director\Cutscene Items\Global Items\Cutscene\StopCutscene.cs" />
+     <Compile Include="Assets\Plugins\Effects or Addons\Cinema Suite\Cinema Director\Cutscene Items\Global Items\Debug\DebugLogErrorEvent.cs" />
+     <Compile Include="Assets\Plugins\Effects or Addons\Cinema Suite\Cinema Director\Cutscene Items\Global Items\Debug\DebugLogMessageEvent.cs" />
+     <Compile Include="Assets\Plugins\Effects or Addons\Cinema Suite\Cinema Director\Cutscene Items\Global Items\Debug\DebugLogWarningEvent.cs" />
+     <Compile Include="Assets\Plugins\Effects or Addons\Cinema Suite\Cinema Director\Cutscene Items\Global Items\GameObject\DisableGameObjectGlobal.cs" />
+     <Compile Include="Assets\Plugins\Effects or Addons\Cinema Suite\Cinema Director\Cutscene Items\Global Items\GameObject\EnableGameObjectGlobal.cs" />
+     <Compile Include="Assets\Plugins\Effects or Addons\Cinema Suite\Cinema Director\Cutscene Items\Global Items\GUITexture\FadeTexture.cs" />
+     <Compile Include="Assets\Plugins\Effects or Addons\Cinema Suite\Cinema Director\Cutscene Items\Global Items\Time\SetTimeScaleEvent.cs" />
+     <Compile Include="Assets\Plugins\Effects or Addons\Cinema Suite\Cinema Director\Cutscene Items\Global Items\Time\TimeScaleCurveAction.cs" />
+     <Compile Include="Assets\Plugins\Effects or Addons\Cinema Suite\Cinema Director\Cutscene Items\Global Items\Transitions\ColorTransition.cs" />
+     <Compile Include="Assets\Plugins\Effects or Addons\Cinema Suite\Cinema Director\Cutscene Items\Global Items\Transitions\FadeFromBlack.cs" />
+     <Compile Include="Assets\Plugins\Effects or Addons\Cinema Suite\Cinema Director\Cutscene Items\Global Items\Transitions\FadeFromWhite.cs" />
+     <Compile Include="Assets\Plugins\Effects or Addons\Cinema Suite\Cinema Director\Cutscene Items\Global Items\Transitions\FadeToBlack.cs" />
+     <Compile Include="Assets\Plugins\Effects or Addons\Cinema Suite\Cinema Director\Cutscene Items\Global Items\Transitions\FadeToWhite.cs" />
+     <Compile Include="Assets\Plugins\Effects or Addons\Cinema Suite\Cinema Director\Cutscene Items\Global Items\Utility\LoadLevelEvent.cs" />
+     <Compile Include="Assets\Plugins\Effects or Addons\Cinema Suite\Cinema Director\Cutscene Items\Global Items\Utility\MassDisabler.cs" />
+     <Compile Include="Assets\Plugins\Effects or Addons\Cinema Suite\Cinema Director\Cutscene Items\Global Items\Utility\StoryboardEvent.cs" />
+     <Compile Include="Assets\Plugins\Effects or Addons\Cinema Suite\Cinema Director\System\Runtime\Cutscene.cs" />
+     <Compile Include="Assets\Plugins\Effects or Addons\Cinema Suite\Cinema Director\System\Runtime\Enums\CutsceneItemGenre.cs" />
+     <Compile Include="Assets\Plugins\Effects or Addons\Cinema Suite\Cinema Director\System\Runtime\Enums\PlaybackMode.cs" />
+     <Compile Include="Assets\Plugins\Effects or Addons\Cinema Suite\Cinema Director\System\Runtime\Enums\PropertyTypeInfo.cs" />
+     <Compile Include="Assets\Plugins\Effects or Addons\Cinema Suite\Cinema Director\System\Runtime\Enums\RevertMode.cs" />
+     <Compile Include="Assets\Plugins\Effects or Addons\Cinema Suite\Cinema Director\System\Runtime\Enums\TimelineTrackGenre.cs" />
+     <Compile Include="Assets\Plugins\Effects or Addons\Cinema Suite\Cinema Director\System\Runtime\Helpers\AnimationCurveHelper.cs" />
+     <Compile Include="Assets\Plugins\Effects or Addons\Cinema Suite\Cinema Director\System\Runtime\Helpers\CutsceneQueue.cs" />
+     <Compile Include="Assets\Plugins\Effects or Addons\Cinema Suite\Cinema Director\System\Runtime\Helpers\CutsceneTrigger.cs" />
+     <Compile Include="Assets\Plugins\Effects or Addons\Cinema Suite\Cinema Director\System\Runtime\Helpers\DirectorRuntimeHelper.cs" />
+     <Compile Include="Assets\Plugins\Effects or Addons\Cinema Suite\Cinema Director\System\Runtime\Helpers\IBakeable.cs" />
+     <Compile Include="Assets\Plugins\Effects or Addons\Cinema Suite\Cinema Director\System\Runtime\Helpers\IOptimizable.cs" />
+     <Compile Include="Assets\Plugins\Effects or Addons\Cinema Suite\Cinema Director\System\Runtime\Helpers\IRevertable.cs" />
+     <Compile Include="Assets\Plugins\Effects or Addons\Cinema Suite\Cinema Director\System\Runtime\Helpers\RevertInfo.cs" />
+     <Compile Include="Assets\Plugins\Effects or Addons\Cinema Suite\Cinema Director\System\Runtime\Helpers\ScreenshotCapture.cs" />
+     <Compile Include="Assets\Plugins\Effects or Addons\Cinema Suite\Cinema Director\System\Runtime\TimelineItems\Base\CinemaClipCurve.cs" />
+     <Compile Include="Assets\Plugins\Effects or Addons\Cinema Suite\Cinema Director\System\Runtime\TimelineItems\Base\CinemaTween.cs" />
+     <Compile Include="Assets\Plugins\Effects or Addons\Cinema Suite\Cinema Director\System\Runtime\TimelineItems\Base\CutsceneItemAttribute.cs" />
+     <Compile Include="Assets\Plugins\Effects or Addons\Cinema Suite\Cinema Director\System\Runtime\TimelineItems\Base\MemberClipCurveData.cs" />
+     <Compile Include="Assets\Plugins\Effects or Addons\Cinema Suite\Cinema Director\System\Runtime\TimelineItems\Base\TimelineAction.cs" />
+     <Compile Include="Assets\Plugins\Effects or Addons\Cinema Suite\Cinema Director\System\Runtime\TimelineItems\Base\TimelineActionFixed.cs" />
+     <Compile Include="Assets\Plugins\Effects or Addons\Cinema Suite\Cinema Director\System\Runtime\TimelineItems\Base\TimelineItem.cs" />
+     <Compile Include="Assets\Plugins\Effects or Addons\Cinema Suite\Cinema Director\System\Runtime\TimelineItems\CinemaActorAction.cs" />
+     <Compile Include="Assets\Plugins\Effects or Addons\Cinema Suite\Cinema Director\System\Runtime\TimelineItems\CinemaActorClipCurve.cs" />
+     <Compile Include="Assets\Plugins\Effects or Addons\Cinema Suite\Cinema Director\System\Runtime\TimelineItems\CinemaActorEvent.cs" />
+     <Compile Include="Assets\Plugins\Effects or Addons\Cinema Suite\Cinema Director\System\Runtime\TimelineItems\CinemaGlobalAction.cs" />
+     <Compile Include="Assets\Plugins\Effects or Addons\Cinema Suite\Cinema Director\System\Runtime\TimelineItems\CinemaGlobalEvent.cs" />
+     <Compile Include="Assets\Plugins\Effects or Addons\Cinema Suite\Cinema Director\System\Runtime\TimelineItems\CinemaMultiActorCurveClip.cs" />
+     <Compile Include="Assets\Plugins\Effects or Addons\Cinema Suite\Cinema Director\System\Runtime\TimelineTracks\ActorItemTrack.cs" />
+     <Compile Include="Assets\Plugins\Effects or Addons\Cinema Suite\Cinema Director\System\Runtime\TimelineTracks\AudioTrack.cs" />
+     <Compile Include="Assets\Plugins\Effects or Addons\Cinema Suite\Cinema Director\System\Runtime\TimelineTracks\Base\IActorTrack.cs" />
+     <Compile Include="Assets\Plugins\Effects or Addons\Cinema Suite\Cinema Director\System\Runtime\TimelineTracks\Base\IMultiActorTrack.cs" />
+     <Compile Include="Assets\Plugins\Effects or Addons\Cinema Suite\Cinema Director\System\Runtime\TimelineTracks\Base\TimelineTrack.cs" />
+     <Compile Include="Assets\Plugins\Effects or Addons\Cinema Suite\Cinema Director\System\Runtime\TimelineTracks\Base\TimelineTrackAttribute.cs" />
+     <Compile Include="Assets\Plugins\Effects or Addons\Cinema Suite\Cinema Director\System\Runtime\TimelineTracks\CurveTrack.cs" />
+     <Compile Include="Assets\Plugins\Effects or Addons\Cinema Suite\Cinema Director\System\Runtime\TimelineTracks\DialogueTrack.cs" />
+     <Compile Include="Assets\Plugins\Effects or Addons\Cinema Suite\Cinema Director\System\Runtime\TimelineTracks\GlobalItemTrack.cs" />
+     <Compile Include="Assets\Plugins\Effects or Addons\Cinema Suite\Cinema Director\System\Runtime\TimelineTracks\MecanimTrack.cs" />
+     <Compile Include="Assets\Plugins\Effects or Addons\Cinema Suite\Cinema Director\System\Runtime\TimelineTracks\MultiCurveTrack.cs" />
+     <Compile Include="Assets\Plugins\Effects or Addons\Cinema Suite\Cinema Director\System\Runtime\TimelineTracks\ShotTrack.cs" />
+     <Compile Include="Assets\Plugins\Effects or Addons\Cinema Suite\Cinema Director\System\Runtime\TimelineTracks\TransformTrack.cs" />
+     <Compile Include="Assets\Plugins\Effects or Addons\Cinema Suite\Cinema Director\System\Runtime\TrackGroups\ActorTrackGroup.cs" />
+     <Compile Include="Assets\Plugins\Effects or Addons\Cinema Suite\Cinema Director\System\Runtime\TrackGroups\Base\TrackGroup.cs" />
+     <Compile Include="Assets\Plugins\Effects or Addons\Cinema Suite\Cinema Director\System\Runtime\TrackGroups\Base\TrackGroupAttribute.cs" />
+     <Compile Include="Assets\Plugins\Effects or Addons\Cinema Suite\Cinema Director\System\Runtime\TrackGroups\CharacterTrackGroup.cs" />
+     <Compile Include="Assets\Plugins\Effects or Addons\Cinema Suite\Cinema Director\System\Runtime\TrackGroups\DirectorGroup.cs" />
+     <Compile Include="Assets\Plugins\Effects or Addons\Cinema Suite\Cinema Director\System\Runtime\TrackGroups\MultiActorTrackGroup.cs" />
+     <Compile Include="Assets\Plugins\Effects or Addons\Cinema Suite\Cinema Mocap\Runtime\RealtimeHumanoidPosing.cs" />
+     <Compile Include="Assets\Plugins\Effects or Addons\Cinema Suite\Cinema Pro Cams\Camera Behaviours\Perlin.cs" />
+     <Compile Include="Assets\Plugins\Effects or Addons\Cinema Suite\Cinema Pro Cams\Camera Behaviours\ShakeCam.cs" />
+     <Compile Include="Assets\Plugins\Effects or Addons\Cinema Suite\Cinema Pro Cams\Image Effects (Pro Only)_CS\Cinema Suite\CSDOFScatter.cs" />
+     <Compile Include="Assets\Plugins\Effects or Addons\Cinema Suite\Cinema Pro Cams\Image Effects (Pro Only)_CS\Cinema Suite\CSPostEffectsBase.cs" />
+     <Compile Include="Assets\Plugins\Effects or Addons\Cinema Suite\Cinema Pro Cams\Scripts\CameraBody.cs" />
+     <Compile Include="Assets\Plugins\Effects or Addons\Cinema Suite\Cinema Pro Cams\Scripts\CameraBodyGUI.cs" />
+     <Compile Include="Assets\Plugins\Effects or Addons\Cinema Suite\Cinema Pro Cams\Scripts\CameraMan.cs" />
+     <Compile Include="Assets\Plugins\Effects or Addons\Cinema Suite\Cinema Pro Cams\Scripts\CameraMount.cs" />
+     <Compile Include="Assets\Plugins\Effects or Addons\Cinema Suite\Cinema Pro Cams\Scripts\ProCamsLensDataTable.cs" />
+     <Compile Include="Assets\Plugins\Effects or Addons\Cinema Suite\Cinema Pro Cams\Scripts\ProCamsUtility.cs" />
+     <Compile Include="Assets\Plugins\Effects or Addons\Cinema Suite\Cinema Pro Cams\Scripts\Stereo3D.cs" />
+     <Compile Include="Assets\Plugins\Effects or Addons\Cinema Suite\Cinema Pro Cams\Scripts\Stereo3DGUI.cs" />
+     <Compile Include="Assets\Plugins\Effects or Addons\Cinema Suite\Cinema Pro Cams\Scripts\Stereo3DRenderer.cs" />
+     <Compile Include="Assets\Plugins\Effects or Addons\Colorful FX\Scripts\Attributes\ColorUsageAttribute.cs" />
+     <Compile Include="Assets\Plugins\Effects or Addons\Colorful FX\Scripts\Attributes\HelpURLAttribute.cs" />
+     <Compile Include="Assets\Plugins\Effects or Addons\Colorful FX\Scripts\Attributes\MinAttribute.cs" />
+     <Compile Include="Assets\Plugins\Effects or Addons\Colorful FX\Scripts\BaseEffect.cs" />
+     <Compile Include="Assets\Plugins\Effects or Addons\Colorful FX\Scripts\CLib.cs" />
+     <Compile Include="Assets\Plugins\Effects or Addons\Colorful FX\Scripts\Effects\AnalogTV.cs" />
+     <Compile Include="Assets\Plugins\Effects or Addons\Colorful FX\Scripts\Effects\BilateralGaussianBlur.cs" />
+     <Compile Include="Assets\Plugins\Effects or Addons\Colorful FX\Scripts\Effects\BleachBypass.cs" />
+     <Compile Include="Assets\Plugins\Effects or Addons\Colorful FX\Scripts\Effects\Blend.cs" />
+     <Compile Include="Assets\Plugins\Effects or Addons\Colorful FX\Scripts\Effects\BrightnessContrastGamma.cs" />
+     <Compile Include="Assets\Plugins\Effects or Addons\Colorful FX\Scripts\Effects\ChannelClamper.cs" />
+     <Compile Include="Assets\Plugins\Effects or Addons\Colorful FX\Scripts\Effects\ChannelMixer.cs" />
+     <Compile Include="Assets\Plugins\Effects or Addons\Colorful FX\Scripts\Effects\ChannelSwapper.cs" />
+     <Compile Include="Assets\Plugins\Effects or Addons\Colorful FX\Scripts\Effects\ChromaticAberration.cs" />
+     <Compile Include="Assets\Plugins\Effects or Addons\Colorful FX\Scripts\Effects\ComicBook.cs" />
+     <Compile Include="Assets\Plugins\Effects or Addons\Colorful FX\Scripts\Effects\ContrastGain.cs" />
+     <Compile Include="Assets\Plugins\Effects or Addons\Colorful FX\Scripts\Effects\ContrastVignette.cs" />
+     <Compile Include="Assets\Plugins\Effects or Addons\Colorful FX\Scripts\Effects\Convolution3x3.cs" />
+     <Compile Include="Assets\Plugins\Effects or Addons\Colorful FX\Scripts\Effects\CrossStitch.cs" />
+     <Compile Include="Assets\Plugins\Effects or Addons\Colorful FX\Scripts\Effects\DirectionalBlur.cs" />
+     <Compile Include="Assets\Plugins\Effects or Addons\Colorful FX\Scripts\Effects\Dithering.cs" />
+     <Compile Include="Assets\Plugins\Effects or Addons\Colorful FX\Scripts\Effects\DoubleVision.cs" />
+     <Compile Include="Assets\Plugins\Effects or Addons\Colorful FX\Scripts\Effects\DynamicLookup.cs" />
+     <Compile Include="Assets\Plugins\Effects or Addons\Colorful FX\Scripts\Effects\FastVignette.cs" />
+     <Compile Include="Assets\Plugins\Effects or Addons\Colorful FX\Scripts\Effects\Frost.cs" />
+     <Compile Include="Assets\Plugins\Effects or Addons\Colorful FX\Scripts\Effects\GaussianBlur.cs" />
+     <Compile Include="Assets\Plugins\Effects or Addons\Colorful FX\Scripts\Effects\Glitch.cs" />
+     <Compile Include="Assets\Plugins\Effects or Addons\Colorful FX\Scripts\Effects\GradientRamp.cs" />
+     <Compile Include="Assets\Plugins\Effects or Addons\Colorful FX\Scripts\Effects\GradientRampDynamic.cs" />
+     <Compile Include="Assets\Plugins\Effects or Addons\Colorful FX\Scripts\Effects\GrainyBlur.cs" />
+     <Compile Include="Assets\Plugins\Effects or Addons\Colorful FX\Scripts\Effects\Grayscale.cs" />
+     <Compile Include="Assets\Plugins\Effects or Addons\Colorful FX\Scripts\Effects\Halftone.cs" />
+     <Compile Include="Assets\Plugins\Effects or Addons\Colorful FX\Scripts\Effects\Histogram.cs" />
+     <Compile Include="Assets\Plugins\Effects or Addons\Colorful FX\Scripts\Effects\HueFocus.cs" />
+     <Compile Include="Assets\Plugins\Effects or Addons\Colorful FX\Scripts\Effects\HueSaturationValue.cs" />
+     <Compile Include="Assets\Plugins\Effects or Addons\Colorful FX\Scripts\Effects\Kuwahara.cs" />
+     <Compile Include="Assets\Plugins\Effects or Addons\Colorful FX\Scripts\Effects\Led.cs" />
+     <Compile Include="Assets\Plugins\Effects or Addons\Colorful FX\Scripts\Effects\LensDistortionBlur.cs" />
+     <Compile Include="Assets\Plugins\Effects or Addons\Colorful FX\Scripts\Effects\Letterbox.cs" />
+     <Compile Include="Assets\Plugins\Effects or Addons\Colorful FX\Scripts\Effects\Levels.cs" />
+     <Compile Include="Assets\Plugins\Effects or Addons\Colorful FX\Scripts\Effects\LoFiPalette.cs" />
+     <Compile Include="Assets\Plugins\Effects or Addons\Colorful FX\Scripts\Effects\LookupFilter.cs" />
+     <Compile Include="Assets\Plugins\Effects or Addons\Colorful FX\Scripts\Effects\LookupFilter3D.cs" />
+     <Compile Include="Assets\Plugins\Effects or Addons\Colorful FX\Scripts\Effects\Negative.cs" />
+     <Compile Include="Assets\Plugins\Effects or Addons\Colorful FX\Scripts\Effects\Noise.cs" />
+     <Compile Include="Assets\Plugins\Effects or Addons\Colorful FX\Scripts\Effects\PhotoFilter.cs" />
+     <Compile Include="Assets\Plugins\Effects or Addons\Colorful FX\Scripts\Effects\Pixelate.cs" />
+     <Compile Include="Assets\Plugins\Effects or Addons\Colorful FX\Scripts\Effects\PixelMatrix.cs" />
+     <Compile Include="Assets\Plugins\Effects or Addons\Colorful FX\Scripts\Effects\Posterize.cs" />
+     <Compile Include="Assets\Plugins\Effects or Addons\Colorful FX\Scripts\Effects\RadialBlur.cs" />
+     <Compile Include="Assets\Plugins\Effects or Addons\Colorful FX\Scripts\Effects\RGBSplit.cs" />
+     <Compile Include="Assets\Plugins\Effects or Addons\Colorful FX\Scripts\Effects\SCurveContrast.cs" />
+     <Compile Include="Assets\Plugins\Effects or Addons\Colorful FX\Scripts\Effects\ShadowsMidtonesHighlights.cs" />
+     <Compile Include="Assets\Plugins\Effects or Addons\Colorful FX\Scripts\Effects\Sharpen.cs" />
+     <Compile Include="Assets\Plugins\Effects or Addons\Colorful FX\Scripts\Effects\SmartSaturation.cs" />
+     <Compile Include="Assets\Plugins\Effects or Addons\Colorful FX\Scripts\Effects\Strokes.cs" />
+     <Compile Include="Assets\Plugins\Effects or Addons\Colorful FX\Scripts\Effects\Technicolor.cs" />
+     <Compile Include="Assets\Plugins\Effects or Addons\Colorful FX\Scripts\Effects\Threshold.cs" />
+     <Compile Include="Assets\Plugins\Effects or Addons\Colorful FX\Scripts\Effects\TVVignette.cs" />
+     <Compile Include="Assets\Plugins\Effects or Addons\Colorful FX\Scripts\Effects\Vibrance.cs" />
+     <Compile Include="Assets\Plugins\Effects or Addons\Colorful FX\Scripts\Effects\Vintage.cs" />
+     <Compile Include="Assets\Plugins\Effects or Addons\Colorful FX\Scripts\Effects\VintageFast.cs" />
+     <Compile Include="Assets\Plugins\Effects or Addons\Colorful FX\Scripts\Effects\WaveDistortion.cs" />
+     <Compile Include="Assets\Plugins\Effects or Addons\Colorful FX\Scripts\Effects\WhiteBalance.cs" />
+     <Compile Include="Assets\Plugins\Effects or Addons\Colorful FX\Scripts\Effects\Wiggle.cs" />
+     <Compile Include="Assets\Plugins\Effects or Addons\SSAO Pro\Demo\Scripts\DemoUI.cs" />
+     <Compile Include="Assets\Plugins\Effects or Addons\SSAO Pro\Demo\Scripts\RotateAround.cs" />
+     <Compile Include="Assets\Plugins\Effects or Addons\SSAO Pro\Scripts\SSAOPro.cs" />
+     <Compile Include="Assets\Plugins\Effects or Addons\Standard Assets\CNControls\Scripts\CnInputSystem\CnInputManager.cs" />
+     <Compile Include="Assets\Plugins\Effects or Addons\Standard Assets\CNControls\Scripts\CnInputSystem\VirtualAxis.cs" />
+     <Compile Include="Assets\Plugins\Effects or Addons\Standard Assets\CNControls\Scripts\CnInputSystem\VirtualButton.cs" />
+     <Compile Include="Assets\Plugins\Effects or Addons\Standard Assets\CNControls\Scripts\Controllers\CommonOnScreenControl.cs" />
+     <Compile Include="Assets\Plugins\Effects or Addons\Standard Assets\CNControls\Scripts\Controllers\Dpad.cs" />
+     <Compile Include="Assets\Plugins\Effects or Addons\Standard Assets\CNControls\Scripts\Controllers\DpadAxis.cs" />
+     <Compile Include="Assets\Plugins\Effects or Addons\Standard Assets\CNControls\Scripts\Controllers\SensitiveJoystick.cs" />
+     <Compile Include="Assets\Plugins\Effects or Addons\Standard Assets\CNControls\Scripts\Controllers\SimpleButton.cs" />
+     <Compile Include="Assets\Plugins\Effects or Addons\Standard Assets\CNControls\Scripts\Controllers\SimpleJoystick.cs" />
+     <Compile Include="Assets\Plugins\Effects or Addons\Standard Assets\CNControls\Scripts\Controllers\Touchpad.cs" />
+     <Compile Include="Assets\Plugins\Effects or Addons\Standard Assets\Effects\AmbientOcclusion\AmbientOcclusion.cs" />
+     <Compile Include="Assets\Plugins\Effects or Addons\Standard Assets\Effects\AmbientOcclusion\Helpers\PropertyObserver.cs" />
+     <Compile Include="Assets\Plugins\Effects or Addons\Standard Assets\Effects\AmbientOcclusion\Helpers\Settings.cs" />
+     <Compile Include="Assets\Plugins\Effects or Addons\Standard Assets\Effects\AntiAliasing\AntiAliasing.cs" />
+     <Compile Include="Assets\Plugins\Effects or Addons\Standard Assets\Effects\AntiAliasing\FXAA\FXAA.cs" />
+     <Compile Include="Assets\Plugins\Effects or Addons\Standard Assets\Effects\AntiAliasing\IAntiAliasing.cs" />
+     <Compile Include="Assets\Plugins\Effects or Addons\Standard Assets\Effects\AntiAliasing\SMAA\SMAA.cs" />
+     <Compile Include="Assets\Plugins\Effects or Addons\Standard Assets\Effects\Bloom\Bloom.cs" />
+     <Compile Include="Assets\Plugins\Effects or Addons\Standard Assets\Effects\Common\ImageEffectHelper.cs" />
+     <Compile Include="Assets\Plugins\Effects or Addons\Standard Assets\Effects\Common\MinAttribute.cs" />
+     <Compile Include="Assets\Plugins\Effects or Addons\Standard Assets\Effects\Common\RenderTextureUtility.cs" />
+     <Compile Include="Assets\Plugins\Effects or Addons\Standard Assets\Effects\DepthOfField\DepthOfField.cs" />
+     <Compile Include="Assets\Plugins\Effects or Addons\Standard Assets\Effects\LensAberrations\LensAberrations.cs" />
+     <Compile Include="Assets\Plugins\Effects or Addons\Standard Assets\Effects\ScreenSpaceReflection\ScreenSpaceReflection.cs" />
+     <Compile Include="Assets\Plugins\Effects or Addons\Standard Assets\Effects\TonemappingColorGrading\TonemappingColorGrading.cs" />
+     <Compile Include="Assets\Plugins\LightShafts-master\LightShafts.cs" />
+     <Compile Include="Assets\Plugins\LightShafts-master\LightShafts.Resources.cs" />
+     <Compile Include="Assets\Plugins\LightShafts-master\LightShafts.Utils.cs" />
+     <Compile Include="Assets\Plugins\MessageKit\LocatorKit.cs" />
+     <Compile Include="Assets\Plugins\MessageKit\MessageKit.cs" />
+     <Compile Include="Assets\Plugins\MessageKit\MessageKitDemo\MessageKitDemoUI.cs" />
+     <Compile Include="Assets\Plugins\MessageKit\MessageKitDemo\MessageKitLiteDemoUI.cs" />
+     <Compile Include="Assets\Plugins\MessageKit\MessageKitLite.cs" />
+     <Compile Include="Assets\Plugins\Procedural-Cave-Generator-master\CaveGenerator.cs" />
+     <Compile Include="Assets\Plugins\Procedural-Cave-Generator-master\HeightMapVisualizer.cs" />
+     <Compile Include="Assets\Plugins\Procedural-Cave-Generator-master\Internal\CaveGenerator\Core\HeightMap\HeightMapProperties.cs" />
+     <Compile Include="Assets\Plugins\Procedural-Cave-Generator-master\Internal\CaveGenerator\Core\HeightMap\Implementations\ConstantHeightMap.cs" />
+     <Compile Include="Assets\Plugins\Procedural-Cave-Generator-master\Internal\CaveGenerator\Core\HeightMap\Implementations\CustomHeightMap.cs" />
+     <Compile Include="Assets\Plugins\Procedural-Cave-Generator-master\Internal\CaveGenerator\Core\HeightMap\Implementations\Noise.cs" />
+     <Compile Include="Assets\Plugins\Procedural-Cave-Generator-master\Internal\CaveGenerator\Core\HeightMap\Implementations\PerlinHeightMap.cs" />
+     <Compile Include="Assets\Plugins\Procedural-Cave-Generator-master\Internal\CaveGenerator\Core\MapConverter.cs" />
+     <Compile Include="Assets\Plugins\Procedural-Cave-Generator-master\Internal\CaveGenerator\Core\MapSplitter.cs" />
+     <Compile Include="Assets\Plugins\Procedural-Cave-Generator-master\Internal\CaveGenerator\Core\Tooltips.cs" />
+     <Compile Include="Assets\Plugins\Procedural-Cave-Generator-master\Internal\CaveGenerator\Public\Cave\Cave.cs" />
+     <Compile Include="Assets\Plugins\Procedural-Cave-Generator-master\Internal\CaveGenerator\Public\Cave\Components\CaveComponent.cs" />
+     <Compile Include="Assets\Plugins\Procedural-Cave-Generator-master\Internal\CaveGenerator\Public\Cave\Components\Ceiling.cs" />
+     <Compile Include="Assets\Plugins\Procedural-Cave-Generator-master\Internal\CaveGenerator\Public\Cave\Components\Floor.cs" />
+     <Compile Include="Assets\Plugins\Procedural-Cave-Generator-master\Internal\CaveGenerator\Public\Cave\Components\Sector.cs" />
+     <Compile Include="Assets\Plugins\Procedural-Cave-Generator-master\Internal\CaveGenerator\Public\Cave\Components\Walls.cs" />
+     <Compile Include="Assets\Plugins\Procedural-Cave-Generator-master\Internal\CaveGenerator\Public\CaveConfiguration.cs" />
+     <Compile Include="Assets\Plugins\Procedural-Cave-Generator-master\Internal\CaveGenerator\Public\CollisionTester.cs" />
+     <Compile Include="Assets\Plugins\Procedural-Cave-Generator-master\Internal\CaveGenerator\Public\HeightMapFactory.cs" />
+     <Compile Include="Assets\Plugins\Procedural-Cave-Generator-master\Internal\CaveGenerator\Utility\Stopwatch.cs" />
+     <Compile Include="Assets\Plugins\Procedural-Cave-Generator-master\Internal\CaveGenerator\Utility\Threading.cs" />
+     <Compile Include="Assets\Plugins\Procedural-Cave-Generator-master\Internal\MapGeneration\Core\Connectivity\ConnectionFinder.cs" />
+     <Compile Include="Assets\Plugins\Procedural-Cave-Generator-master\Internal\MapGeneration\Core\Connectivity\ConnectionInfo.cs" />
+     <Compile Include="Assets\Plugins\Procedural-Cave-Generator-master\Internal\MapGeneration\Core\Connectivity\EdgeExtractor.cs" />
+     <Compile Include="Assets\Plugins\Procedural-Cave-Generator-master\Internal\MapGeneration\Core\Connectivity\MapConnector.cs" />
+     <Compile Include="Assets\Plugins\Procedural-Cave-Generator-master\Internal\MapGeneration\Core\Connectivity\MST.cs" />
+     <Compile Include="Assets\Plugins\Procedural-Cave-Generator-master\Internal\MapGeneration\Core\Connectivity\UnionFind.cs" />
+     <Compile Include="Assets\Plugins\Procedural-Cave-Generator-master\Internal\MapGeneration\Core\GraphSearch\BFS.cs" />
+     <Compile Include="Assets\Plugins\Procedural-Cave-Generator-master\Internal\MapGeneration\Core\GraphSearch\TileRegion.cs" />
+     <Compile Include="Assets\Plugins\Procedural-Cave-Generator-master\Internal\MapGeneration\Core\MapGenerator.cs" />
+     <Compile Include="Assets\Plugins\Procedural-Cave-Generator-master\Internal\MapGeneration\Core\Tooltips.cs" />
+     <Compile Include="Assets\Plugins\Procedural-Cave-Generator-master\Internal\MapGeneration\Public\Coord.cs" />
+     <Compile Include="Assets\Plugins\Procedural-Cave-Generator-master\Internal\MapGeneration\Public\Map.cs" />
+     <Compile Include="Assets\Plugins\Procedural-Cave-Generator-master\Internal\MapGeneration\Public\MapBuilder.cs" />
+     <Compile Include="Assets\Plugins\Procedural-Cave-Generator-master\Internal\MapGeneration\Public\MapParameters.cs" />
+     <Compile Include="Assets\Plugins\Procedural-Cave-Generator-master\Internal\MeshGeneration\Core\MarchingSquares\LocalPosition.cs" />
+     <Compile Include="Assets\Plugins\Procedural-Cave-Generator-master\Internal\MeshGeneration\Core\MarchingSquares\MapTriangulator.cs" />
+     <Compile Include="Assets\Plugins\Procedural-Cave-Generator-master\Internal\MeshGeneration\Core\MarchingSquares\MarchingSquares.cs" />
+     <Compile Include="Assets\Plugins\Procedural-Cave-Generator-master\Internal\MeshGeneration\Core\MarchingSquares\VertexLookup.cs" />
+     <Compile Include="Assets\Plugins\Procedural-Cave-Generator-master\Internal\MeshGeneration\Core\MarchingSquares\WallCache.cs" />
+     <Compile Include="Assets\Plugins\Procedural-Cave-Generator-master\Internal\MeshGeneration\Core\MeshBuilders\MeshBuilder.cs" />
+     <Compile Include="Assets\Plugins\Procedural-Cave-Generator-master\Internal\MeshGeneration\Core\MeshBuilders\MeshData.cs" />
+     <Compile Include="Assets\Plugins\Procedural-Cave-Generator-master\Internal\MeshGeneration\Core\MeshBuilders\WallBuilder.cs" />
+     <Compile Include="Assets\Plugins\Procedural-Cave-Generator-master\Internal\MeshGeneration\Core\MeshBuilders\WallPruner.cs" />
+     <Compile Include="Assets\Plugins\Procedural-Cave-Generator-master\Internal\MeshGeneration\Core\Outline\Outline.cs" />
+     <Compile Include="Assets\Plugins\Procedural-Cave-Generator-master\Internal\MeshGeneration\Core\Outline\OutlineGenerator.cs" />
+     <Compile Include="Assets\Plugins\Procedural-Cave-Generator-master\Internal\MeshGeneration\Core\Outline\Triangle.cs" />
+     <Compile Include="Assets\Plugins\Procedural-Cave-Generator-master\Internal\MeshGeneration\Core\Outline\TriangleLookup.cs" />
+     <Compile Include="Assets\Plugins\Procedural-Cave-Generator-master\Internal\MeshGeneration\Core\VertexIndex.cs" />
+     <Compile Include="Assets\Plugins\Procedural-Cave-Generator-master\Internal\MeshGeneration\Public\CaveMeshes.cs" />
+     <Compile Include="Assets\Plugins\Procedural-Cave-Generator-master\Internal\MeshGeneration\Public\FloorTester.cs" />
+     <Compile Include="Assets\Plugins\Procedural-Cave-Generator-master\Internal\MeshGeneration\Public\IHeightMap.cs" />
+     <Compile Include="Assets\Plugins\Procedural-Cave-Generator-master\Internal\MeshGeneration\Public\MeshGenerator.cs" />
+     <Compile Include="Assets\Plugins\Procedural-Cave-Generator-master\Internal\MeshGeneration\Public\WallGrid.cs" />
+     <Compile Include="Assets\Plugins\Procedural-Cave-Generator-master\Internal\MeshGeneration\Utility\MeshTangentCalculator.cs" />
+     <Compile Include="Assets\Standard Assets\CrossPlatformInput\Scripts\AxisTouchButton.cs" />
+     <Compile Include="Assets\Standard Assets\CrossPlatformInput\Scripts\ButtonHandler.cs" />
+     <Compile Include="Assets\Standard Assets\CrossPlatformInput\Scripts\CrossPlatformInputManager.cs" />
+     <Compile Include="Assets\Standard Assets\CrossPlatformInput\Scripts\InputAxisScrollbar.cs" />
+     <Compile Include="Assets\Standard Assets\CrossPlatformInput\Scripts\Joystick.cs" />
+     <Compile Include="Assets\Standard Assets\CrossPlatformInput\Scripts\MobileControlRig.cs" />
+     <Compile Include="Assets\Standard Assets\CrossPlatformInput\Scripts\PlatformSpecific\MobileInput.cs" />
+     <Compile Include="Assets\Standard Assets\CrossPlatformInput\Scripts\PlatformSpecific\StandaloneInput.cs" />
+     <Compile Include="Assets\Standard Assets\CrossPlatformInput\Scripts\TiltInput.cs" />
+     <Compile Include="Assets\Standard Assets\CrossPlatformInput\Scripts\TouchPad.cs" />
+     <Compile Include="Assets\Standard Assets\CrossPlatformInput\Scripts\VirtualInput.cs" />
+     <Compile Include="Assets\Standard Assets\Effects\ImageEffects\Scripts\PostEffectsBase.cs" />
+     <Compile Include="Assets\Standard Assets\Environment\Water (Basic)\Scripts\WaterBasic.cs" />
+     <Compile Include="Assets\Standard Assets\Environment\Water\Water\Scripts\Displace.cs" />
+     <Compile Include="Assets\Standard Assets\Environment\Water\Water\Scripts\GerstnerDisplace.cs" />
+     <Compile Include="Assets\Standard Assets\Environment\Water\Water\Scripts\MeshContainer.cs" />
+     <Compile Include="Assets\Standard Assets\Environment\Water\Water\Scripts\PlanarReflection.cs" />
+     <Compile Include="Assets\Standard Assets\Environment\Water\Water\Scripts\SpecularLighting.cs" />
+     <Compile Include="Assets\Standard Assets\Environment\Water\Water\Scripts\Water.cs" />
+     <Compile Include="Assets\Standard Assets\Environment\Water\Water\Scripts\WaterBase.cs" />
+     <Compile Include="Assets\Standard Assets\Environment\Water\Water\Scripts\WaterTile.cs" />
+     <Compile Include="Assets\Standard Assets\Utility\ActivateTrigger.cs" />
+     <Compile Include="Assets\Standard Assets\Utility\AlphaButtonClickMask.cs" />
+     <Compile Include="Assets\Standard Assets\Utility\AutoMobileShaderSwitch.cs" />
+     <Compile Include="Assets\Standard Assets\Utility\AutoMoveAndRotate.cs" />
+     <Compile Include="Assets\Standard Assets\Utility\CameraRefocus.cs" />
+     <Compile Include="Assets\Standard Assets\Utility\CurveControlledBob.cs" />
+     <Compile Include="Assets\Standard Assets\Utility\DragRigidbody.cs" />
+     <Compile Include="Assets\Standard Assets\Utility\DynamicShadowSettings.cs" />
+     <Compile Include="Assets\Standard Assets\Utility\EventSystemChecker.cs" />
+     <Compile Include="Assets\Standard Assets\Utility\FollowTarget.cs" />
+     <Compile Include="Assets\Standard Assets\Utility\ForcedReset.cs" />
+     <Compile Include="Assets\Standard Assets\Utility\FOVKick.cs" />
+     <Compile Include="Assets\Standard Assets\Utility\FPSCounter.cs" />
+     <Compile Include="Assets\Standard Assets\Utility\LerpControlledBob.cs" />
+     <Compile Include="Assets\Standard Assets\Utility\ObjectResetter.cs" />
+     <Compile Include="Assets\Standard Assets\Utility\ParticleSystemDestroyer.cs" />
+     <Compile Include="Assets\Standard Assets\Utility\PlatformSpecificContent.cs" />
+     <Compile Include="Assets\Standard Assets\Utility\SimpleActivatorMenu.cs" />
+     <Compile Include="Assets\Standard Assets\Utility\SimpleMouseRotator.cs" />
+     <Compile Include="Assets\Standard Assets\Utility\SmoothFollow.cs" />
+     <Compile Include="Assets\Standard Assets\Utility\TimedObjectActivator.cs" />
+     <Compile Include="Assets\Standard Assets\Utility\TimedObjectDestructor.cs" />
+     <Compile Include="Assets\Standard Assets\Utility\WaypointCircuit.cs" />
+     <Compile Include="Assets\Standard Assets\Utility\WaypointProgressTracker.cs" />
+     <None Include="Assets\Plugins\Effects or Addons\Colorful FX\Shaders\ContrastGain.shader" />
+     <None Include="Assets\Plugins\Effects or Addons\Colorful FX\Shaders\Kuwahara.shader" />
+     <None Include="Assets\Plugins\Effects or Addons\Camera Filter Pack\Resources\CameraFilterPack_TV_Chromatical.shader" />
+     <None Include="Assets\Plugins\Effects or Addons\Camera Filter Pack\Resources\CameraFilterPack_Color_YUV.shader" />
+     <None Include="Assets\Plugins\Effects or Addons\Camera Filter Pack\Resources\CameraFilterPack_Drawing_Crosshatch.shader" />
+     <None Include="Assets\Plugins\Effects or Addons\Camera Filter Pack\Resources\CameraFilterPack_Blend2Camera_HardLight.shader" />
+     <None Include="Assets\Plugins\Effects or Addons\Camera Filter Pack\Resources\CameraFilterPack_FX_DigitalMatrix.shader" />
+     <None Include="Assets\Plugins\Effects or Addons\Camera Filter Pack\Resources\CameraFilterPack_Distortion_FishEye.shader" />
+     <None Include="Assets\Plugins\Effects or Addons\Colorful FX\Shaders\BleachBypass.shader" />
+     <None Include="Assets\Plugins\Effects or Addons\Colorful FX\Shaders\GaussianBlur.shader" />
+     <None Include="Assets\Plugins\Demigiant\DOTweenPro\readme.txt" />
+     <None Include="Assets\Plugins\Effects or Addons\Colorful FX\Shaders\ChannelClamper.shader" />
+     <None Include="Assets\Plugins\Effects or Addons\Camera Filter Pack\Resources\CameraFilterPack_EXTRA_SHOWFPS.shader" />
+     <None Include="Assets\Plugins\Effects or Addons\Camera Filter Pack\Resources\CameraFilterPack_Blend2Camera_LighterColor.shader" />
+     <None Include="Assets\Plugins\Effects or Addons\Camera Filter Pack\Resources\CameraFilterPack_Vision_Tunnel.shader" />
+     <None Include="Assets\Plugins\Effects or Addons\Camera Filter Pack\Resources\CameraFilterPack_Drawing_Manga_FlashWhite.shader" />
+     <None Include="Assets\Plugins\Effects or Addons\Camera Filter Pack\Resources\CameraFilterPack_Gradients_Desert.shader" />
+     <None Include="Assets\Plugins\Effects or Addons\Camera Filter Pack\Resources\CameraFilterPack_Drawing_Manga_Flash.shader" />
+     <None Include="Assets\Plugins\Effects or Addons\Camera Filter Pack\Resources\CameraFilterPack_FX_Mirror.shader" />
+     <None Include="Assets\Plugins\Effects or Addons\Camera Filter Pack\Resources\CameraFilterPack_Vision_Rainbow.shader" />
+     <None Include="Assets\Plugins\Effects or Addons\Camera Filter Pack\Resources\CameraFilterPack_Blend2Camera_VividLight.shader" />
+     <None Include="Assets\Plugins\Effects or Addons\Camera Filter Pack\Resources\CameraFilterPack_FX_Hexagon_Black.shader" />
+     <None Include="Assets\Plugins\Effects or Addons\Colorful FX\Shaders\Technicolor.shader" />
+     <None Include="Assets\Plugins\Effects or Addons\Camera Filter Pack\Resources\CameraFilterPack_Blur_Focus.shader" />
+     <None Include="Assets\Plugins\Effects or Addons\Camera Filter Pack\Resources\CameraFilterPack_Gradients_Stripe.shader" />
+     <None Include="Assets\Plugins\Effects or Addons\CodeStage\Maintainer\changelog.txt" />
+     <None Include="Assets\Plugins\Effects or Addons\SSAO Pro\Readme.txt" />
+     <None Include="Assets\Plugins\Effects or Addons\Camera Filter Pack\Resources\CameraFilterPack_NightVision_4.shader" />
+     <None Include="Assets\Plugins\Effects or Addons\Standard Assets\Effects\AntiAliasing\FXAA\Resources\FXAA3.cginc" />
+     <None Include="Assets\Plugins\Effects or Addons\Camera Filter Pack\Resources\CameraFilterPack_FX_superDot.shader" />
+     <None Include="Assets\Plugins\Effects or Addons\Camera Filter Pack\Resources\CameraFilterPack_Blizzard.shader" />
+     <None Include="Assets\Plugins\Effects or Addons\Camera Filter Pack\Resources\CameraFilterPack_EyesVision_2.shader" />
+     <None Include="Assets\Plugins\Effects or Addons\Camera Filter Pack\Resources\CameraFilterPack_Color_Switching.shader" />
+     <None Include="Assets\Plugins\Effects or Addons\Camera Filter Pack\Resources\CameraFilterPack_Edge_Sobel.shader" />
+     <None Include="Assets\Plugins\Effects or Addons\Colorful FX\Shaders\Glitch.shader" />
+     <None Include="Assets\Plugins\Effects or Addons\Camera Filter Pack\Resources\CameraFilterPack_Blend2Camera_LinearBurn.shader" />
+     <None Include="Assets\Plugins\Effects or Addons\Colorful FX\Shaders\Threshold.shader" />
+     <None Include="Assets\Plugins\Effects or Addons\Camera Filter Pack\Resources\CameraFilterPack_Edge_Golden.shader" />
+     <None Include="Assets\Plugins\Effects or Addons\Camera Filter Pack\Resources\CameraFilterPack_Gradients_Hue.shader" />
+     <None Include="Assets\Plugins\Effects or Addons\Camera Filter Pack\Resources\CameraFilterPack_Blend2Camera_SplitScreen.shader" />
+     <None Include="Assets\Plugins\Effects or Addons\Camera Filter Pack\Resources\CameraFilterPack_EyesVision_1.shader" />
+     <None Include="Assets\Plugins\Effects or Addons\Camera Filter Pack\Resources\CameraFilterPack_Gradients_Ansi.shader" />
+     <None Include="Assets\Plugins\Effects or Addons\Colorful FX\Shaders\FastVignette.shader" />
+     <None Include="Assets\Plugins\Demigiant\DemiLib\Core\DemiLib.xml" />
+     <None Include="Assets\Plugins\LightShafts-master\SamplePositions.shader" />
+     <None Include="Assets\Plugins\Effects or Addons\Cinema Suite\Cinema Director\Example Scenes\Shaders\Additive.shader" />
+     <None Include="Assets\Plugins\Effects or Addons\Camera Filter Pack\Resources\CameraFilterPack_TV_Artefact.shader" />
+     <None Include="Assets\Plugins\Effects or Addons\Colorful FX\Shaders\WhiteBalance.shader" />
+     <None Include="Assets\Plugins\Effects or Addons\Cinema Suite\Cinema Director\ReadMe.txt" />
+     <None Include="Assets\Plugins\Effects or Addons\Camera Filter Pack\Resources\CameraFilterPack_TV_Old_Movie_2.shader" />
+     <None Include="Assets\Plugins\Effects or Addons\Colorful FX\Shaders\GradientRamp.shader" />
+     <None Include="Assets\Plugins\Effects or Addons\Camera Filter Pack\Resources\CameraFilterPack_TV_BrokenGlass.shader" />
+     <None Include="Assets\Plugins\Effects or Addons\Camera Filter Pack\Resources\CameraFilterPack_Blend2Camera_SoftLight.shader" />
+     <None Include="Assets\Plugins\Effects or Addons\Camera Filter Pack\Resources\CameraFilterPack_Blend2Camera_Divide.shader" />
+     <None Include="Assets\Plugins\Effects or Addons\Camera Filter Pack\Resources\CameraFilterPack_Drawing_Manga2.shader" />
+     <None Include="Assets\Plugins\Effects or Addons\Camera Filter Pack\Resources\CameraFilterPack_Color_RGB.shader" />
+     <None Include="Assets\Plugins\Effects or Addons\Camera Filter Pack\Resources\CameraFilterPack_Blur_Steam.shader" />
+     <None Include="Assets\Plugins\Effects or Addons\Camera Filter Pack\Resources\CameraFilterPack_AAA_SuperComputer.shader" />
+     <None Include="Assets\Plugins\Effects or Addons\SSAO Pro\Resources\SSAOPro_v2.shader" />
+     <None Include="Assets\Plugins\Effects or Addons\Colorful FX\Shaders\SCurveContrast.shader" />
+     <None Include="Assets\Plugins\Effects or Addons\Camera Filter Pack\Resources\CameraFilterPack_FX_DigitalMatrixDistortion.shader" />
+     <None Include="Assets\Plugins\Effects or Addons\Camera Filter Pack\Resources\CameraFilterPack_Drawing_Manga3.shader" />
+     <None Include="Assets\Plugins\Demigiant\DOTween\DOTween50.xml" />
+     <None Include="Assets\Plugins\Effects or Addons\Camera Filter Pack\Resources\CameraFilterPack_TV_ARCADE.shader" />
+     <None Include="Assets\Plugins\Effects or Addons\Camera Filter Pack\Resources\CameraFilterPack_Film_Grain.shader" />
+     <None Include="Assets\Plugins\Effects or Addons\Camera Filter Pack\Resources\CameraFilterPack_Light_Rainbow.shader" />
+     <None Include="Assets\Plugins\Effects or Addons\Camera Filter Pack\Resources\CameraFilterPack_Gradients_Rainbow.shader" />
+     <None Include="Assets\Plugins\Effects or Addons\Camera Filter Pack\Resources\CameraFilterPack_Drawing_Manga.shader" />
+     <None Include="Assets\Plugins\Effects or Addons\Camera Filter Pack\Resources\CameraFilterPack_Blur_Noise.shader" />
+     <None Include="Assets\Plugins\Effects or Addons\Camera Filter Pack\Resources\CameraFilterPack_Colors_DarkColor.shader" />
+     <None Include="Assets\Plugins\Effects or Addons\Camera Filter Pack\Resources\CameraFilterPack_FX_Hypno.shader" />
+     <None Include="Assets\Plugins\Effects or Addons\Camera Filter Pack\Resources\CameraFilterPack_TV_Rgb.shader" />
+     <None Include="Assets\Plugins\Effects or Addons\Camera Filter Pack\Resources\CameraFilterPack_Color_Invert.shader" />
+     <None Include="Assets\Plugins\Android\AndroidManifest.xml" />
+     <None Include="Assets\Plugins\Effects or Addons\Colorful FX\Shaders\Glitch.cginc" />
+     <None Include="Assets\Plugins\Effects or Addons\Camera Filter Pack\Resources\CameraFilterPack_AAA_Blood.shader" />
+     <None Include="Assets\Plugins\LightShafts-master\Shared.cginc" />
+     <None Include="Assets\Plugins\Effects or Addons\Camera Filter Pack\Resources\CameraFilterPack_Colors_Adjust_PreFilters.shader" />
+     <None Include="Assets\Plugins\Effects or Addons\Standard Assets\Effects\ScreenSpaceReflection\Resources\ScreenSpaceReflection.shader" />
+     <None Include="Assets\Plugins\Effects or Addons\Camera Filter Pack\Resources\CameraFilterPack_Blend2Camera_Multiply.shader" />
+     <None Include="Assets\Plugins\Effects or Addons\Camera Filter Pack\Resources\CameraFilterPack_TV_PlanetMars.shader" />
+     <None Include="Assets\Plugins\Effects or Addons\Camera Filter Pack\Resources\CameraFilterPack_Pixelisation_OilPaint.shader" />
+     <None Include="Assets\Plugins\Effects or Addons\Camera Filter Pack\Resources\CameraFilterPack_Antialiasing_FXAA.shader" />
+     <None Include="Assets\Plugins\LightShafts-master\Coord.shader" />
+     <None Include="Assets\Plugins\Effects or Addons\Colorful FX\Shaders\Sharpen.shader" />
+     <None Include="Assets\Plugins\Effects or Addons\Camera Filter Pack\Resources\CameraFilterPack_Blend2Camera_PinLight.shader" />
+     <None Include="Assets\Plugins\Effects or Addons\BuildBuddy\README.txt" />
+     <None Include="Assets\Plugins\Effects or Addons\Camera Filter Pack\Resources\CameraFilterPack_FX_ZebraColor.shader" />
+     <None Include="Assets\Plugins\Effects or Addons\Camera Filter Pack\Resources\CameraFilterPack_FX_Scan.shader" />
+     <None Include="Assets\Plugins\Effects or Addons\Camera Filter Pack\Resources\CameraFilterPack_Distortion_ShockWave.shader" />
+     <None Include="Assets\Plugins\Effects or Addons\Camera Filter Pack\Resources\CameraFilterPack_Distortion_Flag.shader" />
+     <None Include="Assets\Plugins\Effects or Addons\Camera Filter Pack\Resources\CameraFilterPack_Blur_GaussianBlur.shader" />
+     <None Include="Assets\Plugins\Effects or Addons\Colorful FX\Shaders\Blend.shader" />
+     <None Include="Assets\Plugins\Effects or Addons\Camera Filter Pack\Resources\CameraFilterPack_Drawing_Manga5.shader" />
+     <None Include="Assets\Plugins\Effects or Addons\Colorful FX\Shaders\Vibrance.shader" />
+     <None Include="Assets\Plugins\Effects or Addons\Camera Filter Pack\Resources\CameraFilterPack_Distortion_Lens.shader" />
+     <None Include="Assets\Plugins\Effects or Addons\Camera Filter Pack\Resources\CameraFilterPack_Blend2Camera_Exclusion.shader" />
+     <None Include="Assets\Plugins\Effects or Addons\Camera Filter Pack\Resources\CameraFilterPack_Drawing_Halftone.shader" />
+     <None Include="Assets\Plugins\Effects or Addons\Camera Filter Pack\Resources\CameraFilterPack_Gradients_Therma.shader" />
+     <None Include="Assets\Plugins\Effects or Addons\Camera Filter Pack\Resources\CameraFilterPack_Blend2Camera_ColorDodge.shader" />
+     <None Include="Assets\Plugins\Effects or Addons\Cinema Suite\Cinema Pro Cams\Lens Data\Resources\CinemaSuite_LensData.txt" />
+     <None Include="Assets\Plugins\Effects or Addons\Camera Filter Pack\Resources\CameraFilterPack_Distortion_Heat.shader" />
+     <None Include="Assets\Plugins\Effects or Addons\SSAO Pro\Resources\SSAOPro_v1.shader" />
+     <None Include="Assets\Plugins\Effects or Addons\Camera Filter Pack\Resources\CameraFilterPack_Light_Rainbow2.shader" />
+     <None Include="Assets\Plugins\Effects or Addons\Camera Filter Pack\Resources\CameraFilterPack_VHS_Tracking.shader" />
+     <None Include="Assets\Plugins\Effects or Addons\Camera Filter Pack\Resources\CameraFilterPack_TV_80.shader" />
+     <None Include="Assets\Plugins\Effects or Addons\Colorful FX\Shaders\Grayscale.shader" />
+     <None Include="Assets\Plugins\Effects or Addons\Colorful FX\Shaders\Halftone.shader" />
+     <None Include="Assets\Plugins\Effects or Addons\Colorful FX\Shaders\PixelMatrix.shader" />
+     <None Include="Assets\Plugins\Effects or Addons\Colorful FX\Shaders\Led.shader" />
+     <None Include="Assets\Plugins\Effects or Addons\Camera Filter Pack\Resources\CameraFilterPack_Gradients_NeonGradient.shader" />
+     <None Include="Assets\Plugins\Effects or Addons\Camera Filter Pack\Resources\CameraFilterPack_FX_Glitch2.shader" />
+     <None Include="Assets\Plugins\Effects or Addons\Standard Assets\Effects\AmbientOcclusion\Resources\AmbientOcclusion.cginc" />
+     <None Include="Assets\Plugins\Effects or Addons\Standard Assets\Effects\DepthOfField\Resources\DepthOfField.shader" />
+     <None Include="Assets\Plugins\Effects or Addons\Standard Assets\Effects\ScreenSpaceReflection\Resources\ScreenSpaceRaytrace.cginc" />
+     <None Include="Assets\Plugins\Effects or Addons\Camera Filter Pack\Resources\CameraFilterPack_Blend2Camera_LinearDodge.shader" />
+     <None Include="Assets\Standard Assets\Environment\Water\Water4\Shaders\FXWater4Simple.shader" />
+     <None Include="Assets\Plugins\Effects or Addons\Colorful FX\Shaders\Posterize.shader" />
+     <None Include="Assets\Plugins\Effects or Addons\Camera Filter Pack\Resources\CameraFilterPack_Color_BrightContrastSaturation.shader" />
+     <None Include="Assets\Plugins\Effects or Addons\Colorful FX\Shaders\Wiggle.shader" />
+     <None Include="Assets\Plugins\Effects or Addons\Camera Filter Pack\Resources\CameraFilterPack_Pixelisation_Dot.shader" />
+     <None Include="Assets\Plugins\Effects or Addons\Camera Filter Pack\Resources\CameraFilterPack_Edge_BlackLine.shader" />
+     <None Include="Assets\Plugins\Effects or Addons\Standard Assets\Effects\AmbientOcclusion\Resources\AmbientOcclusion.shader" />
+     <None Include="Assets\Plugins\Effects or Addons\Camera Filter Pack\Resources\CameraFilterPack_Blur_BlurHole.shader" />
+     <None Include="Assets\Plugins\Effects or Addons\Camera Filter Pack\Resources\CameraFilterPack_Real_VHS.shader" />
+     <None Include="Assets\Plugins\Effects or Addons\Camera Filter Pack\Resources\CameraFilterPack_Special_Bubble.shader" />
+     <None Include="Assets\Plugins\Effects or Addons\Camera Filter Pack\Resources\CameraFilterPack_Blend2Camera_ColorBurn.shader" />
+     <None Include="Assets\Plugins\Effects or Addons\Camera Filter Pack\Resources\CameraFilterPack_TV_VHS_Rewind.shader" />
+     <None Include="Assets\Plugins\Effects or Addons\Colorful FX\Shaders\Noise.shader" />
+     <None Include="Assets\Plugins\Effects or Addons\Standard Assets\Effects\AntiAliasing\FXAA\Resources\FXAA.shader" />
+     <None Include="Assets\Plugins\Effects or Addons\Camera Filter Pack\Resources\CameraFilterPack_Blend2Camera_Overlay.shader" />
+     <None Include="Assets\Plugins\Effects or Addons\Camera Filter Pack\Resources\CameraFilterPack_TV_VHS.shader" />
+     <None Include="Assets\Plugins\Effects or Addons\Camera Filter Pack\Resources\CameraFilterPack_Oculus_NightVision3.shader" />
+     <None Include="Assets\Plugins\Effects or Addons\Camera Filter Pack\Resources\CameraFilterPack_FX_Funk.shader" />
+     <None Include="Assets\Plugins\Effects or Addons\Camera Filter Pack\Resources\CameraFilterPack_Blend2Camera_DarkerColor.shader" />
+     <None Include="Assets\Plugins\Effects or Addons\Colorful FX\Shaders\LensDistortionBlur.shader" />
+     <None Include="Assets\Plugins\Demigiant\DOTween\DOTween46.xml" />
+     <None Include="Assets\Plugins\Effects or Addons\Camera Filter Pack\Resources\CameraFilterPack_FX_Screens.shader" />
+     <None Include="Assets\Plugins\Effects or Addons\Standard Assets\Effects\TonemappingColorGrading\Resources\HistogramRender.shader" />
+     <None Include="Assets\Plugins\LightShafts-master\InterpolateAlongRays.shader" />
+     <None Include="Assets\Plugins\Effects or Addons\Colorful FX\Shaders\Dithering.shader" />
+     <None Include="Assets\Plugins\Effects or Addons\Colorful FX\Shaders\Strokes.shader" />
+     <None Include="Assets\Plugins\Effects or Addons\Colorful FX\Shaders\ComicBook.shader" />
+     <None Include="Assets\Plugins\Effects or Addons\Camera Filter Pack\Resources\CameraFilterPack_NightVisionFX.shader" />
+     <None Include="Assets\Plugins\Effects or Addons\Camera Filter Pack\Resources\CameraFilterPack_AAA_SuperHexagon.shader" />
+     <None Include="Assets\Plugins\Effects or Addons\Colorful FX\Shaders\WaveDistortion.shader" />
+     <None Include="Assets\Plugins\Effects or Addons\Colorful FX\Shaders\Negative.shader" />
+     <None Include="Assets\Plugins\Effects or Addons\Standard Assets\Effects\TonemappingColorGrading\Resources\TonemappingColorGrading.cginc" />
+     <None Include="Assets\Plugins\LightShafts-master\DepthBreaks.shader" />
+     <None Include="Assets\Plugins\Effects or Addons\SSAO Pro\Changelog.txt" />
+     <None Include="Assets\Plugins\Effects or Addons\Camera Filter Pack\Resources\CameraFilterPack_Blur_Regular.shader" />
+     <None Include="Assets\Plugins\Effects or Addons\Camera Filter Pack\Resources\CameraFilterPack_Blur_Radial.shader" />
+     <None Include="Assets\Plugins\Effects or Addons\SSAO Pro\Resources\SSAOPro.cginc" />
+     <None Include="Assets\Plugins\Effects or Addons\Camera Filter Pack\Resources\CameraFilterPack_FX_Drunk2.shader" />
+     <None Include="Assets\Plugins\Effects or Addons\Camera Filter Pack\Resources\CameraFilterPack_TV_WideScreenVertical.shader" />
+     <None Include="Assets\Plugins\Effects or Addons\Camera Filter Pack\Resources\CameraFilterPack_OldFilm_Cutting1.shader" />
+     <None Include="Assets\Plugins\Effects or Addons\Camera Filter Pack\Resources\CameraFilterPack_FX_Plasma.shader" />
+     <None Include="Assets\Plugins\Effects or Addons\Camera Filter Pack\Resources\CameraFilterPack_Drawing_NewCellShading.shader" />
+     <None Include="Assets\Plugins\Effects or Addons\Colorful FX\Shaders\Colorful.cginc" />
+     <None Include="Assets\Plugins\Effects or Addons\Camera Filter Pack\Resources\CameraFilterPack_Blend2Camera_BlueScreen.shader" />
+     <None Include="Assets\Plugins\Effects or Addons\Camera Filter Pack\Resources\CameraFilterPack_Distortion_Dream.shader" />
+     <None Include="Assets\Plugins\Effects or Addons\Camera Filter Pack\Resources\CameraFilterPack_Color_GrayScale.shader" />
+     <None Include="Assets\Plugins\Effects or Addons\Camera Filter Pack\Resources\CameraFilterPack_Drawing_Lines.shader" />
+     <None Include="Assets\Plugins\Effects or Addons\Camera Filter Pack\Resources\CameraFilterPack_OldFilm_Cutting2.shader" />
+     <None Include="Assets\Plugins\Effects or Addons\Camera Filter Pack\Resources\CameraFilterPack_FX_Glitch3.shader" />
+     <None Include="Assets\Plugins\Effects or Addons\Standard Assets\Effects\AntiAliasing\SMAA\Resources\SMAA.shader" />
+     <None Include="Assets\Plugins\Effects or Addons\Camera Filter Pack\Resources\CameraFilterPack_Vision_Crystal.shader" />
+     <None Include="Assets\Plugins\Effects or Addons\Camera Filter Pack\Resources\CameraFilterPack_Vision_Warp2.shader" />
+     <None Include="Assets\Plugins\Effects or Addons\Colorful FX\Shaders\PhotoFilter.shader" />
+     <None Include="Assets\Plugins\Effects or Addons\Camera Filter Pack\Resources\CameraFilterPack_Drawing_Curve.shader" />
+     <None Include="Assets\Plugins\Effects or Addons\Camera Filter Pack\Resources\CameraFilterPack_Retro_Loading.shader" />
+     <None Include="Assets\Plugins\Effects or Addons\Camera Filter Pack\Resources\CameraFilterPack_Film_ColorPerfection.shader" />
+     <None Include="Assets\Plugins\Effects or Addons\Standard Assets\Effects\Bloom\Resources\Bloom.shader" />
+     <None Include="Assets\Plugins\Effects or Addons\Colorful FX\Shaders\HueSaturationValue.shader" />
+     <None Include="Assets\Plugins\Effects or Addons\Camera Filter Pack\Resources\CameraFilterPack_Vision_Warp.shader" />
+     <None Include="Assets\Plugins\Effects or Addons\Camera Filter Pack\Resources\CameraFilterPack_Oculus_NightVision5.shader" />
+     <None Include="Assets\Plugins\Effects or Addons\Camera Filter Pack\Resources\CameraFilterPack_FX_Glitch1.shader" />
+     <None Include="Assets\Plugins\Effects or Addons\Colorful FX\Shaders\BilateralGaussianBlur.shader" />
+     <None Include="Assets\Plugins\Effects or Addons\Colorful FX\Shaders\ShadowsMidtonesHighlights.shader" />
+     <None Include="Assets\Plugins\Effects or Addons\Camera Filter Pack\Resources\CameraFilterPack_Distortion_Water_Drop.shader" />
+     <None Include="Assets\Plugins\Effects or Addons\Camera Filter Pack\Resources\CameraFilterPack_FX_Hexagon.shader" />
+     <None Include="Assets\Plugins\Effects or Addons\Camera Filter Pack\Resources\CameraFilterPack_Alien_Vision.shader" />
+     <None Include="Assets\Plugins\Effects or Addons\Camera Filter Pack\Resources\CameraFilterPack_Distortion_Half_Sphere.shader" />
+     <None Include="Assets\Standard Assets\Environment\Water (Basic)\Shaders\FXWaterBasic.shader" />
+     <None Include="Assets\Plugins\Effects or Addons\Camera Filter Pack\Resources\CameraFilterPack_Edge_Edge_filter.shader" />
+     <None Include="Assets\Plugins\Effects or Addons\Colorful FX\Shaders\ChromaticAberration.shader" />
+     <None Include="Assets\Plugins\Effects or Addons\Camera Filter Pack\Resources\CameraFilterPack_Light_Water2.shader" />
+     <None Include="Assets\Plugins\Effects or Addons\Colorful FX\Shaders\RGBSplit.shader" />
+     <None Include="Assets\Plugins\Effects or Addons\Camera Filter Pack\Resources\CameraFilterPack_FX_Drunk.shader" />
+     <None Include="Assets\Plugins\Effects or Addons\Colorful FX\Shaders\ChannelMixer.shader" />
+     <None Include="Assets\Plugins\Effects or Addons\Colorful FX\Shaders\ContrastVignette.shader" />
+     <None Include="Assets\Standard Assets\CrossPlatformInput\CrossPlatformInputGuidelines.txt" />
+     <None Include="Assets\Plugins\Effects or Addons\Camera Filter Pack\Resources\CameraFilterPack_TV_WideScreenHorizontal.shader" />
+     <None Include="Assets\Plugins\Effects or Addons\Camera Filter Pack\Resources\CameraFilterPack_Gradients_ElectricGradient.shader" />
+     <None Include="Assets\Plugins\Effects or Addons\Camera Filter Pack\Resources\CameraFilterPack_FX_8bits.shader" />
+     <None Include="Assets\Plugins\Effects or Addons\Camera Filter Pack\Resources\CameraFilterPack_Blend2Camera_Lighten.shader" />
+     <None Include="Assets\Plugins\Effects or Addons\Camera Filter Pack\Resources\CameraFilterPack_Oculus_NightVision2.shader" />
+     <None Include="Assets\Plugins\Effects or Addons\Camera Filter Pack\Resources\CameraFilterPack_TV_WideScreenCircle.shader" />
+     <None Include="Assets\Plugins\Effects or Addons\Colorful FX\Shaders\SmartSaturation.shader" />
+     <None Include="Assets\Plugins\Effects or Addons\Standard Assets\Effects\AntiAliasing\SMAA\Resources\SMAA.cginc" />
+     <None Include="Assets\Plugins\Effects or Addons\Colorful FX\Shaders\DoubleVision.shader" />
+     <None Include="Assets\Plugins\Effects or Addons\Camera Filter Pack\Resources\CameraFilterPack_Glitch_Mozaic.shader" />
+     <None Include="Assets\Plugins\Effects or Addons\Camera Filter Pack\Resources\CameraFilterPack_EXTRA_Rotation.shader" />
+     <None Include="Assets\Plugins\Effects or Addons\Camera Filter Pack\Resources\CameraFilterPack_Edge_Neon.shader" />
+     <None Include="Assets\Plugins\Effects or Addons\Camera Filter Pack\Resources\CameraFilterPack_TV_ARCADE_2.shader" />
+     <None Include="Assets\Plugins\Effects or Addons\Camera Filter Pack\Resources\CameraFilterPack_Distortion_Flush.shader" />
+     <None Include="Assets\Plugins\Effects or Addons\Colorful FX\Shaders\DynamicLookup.shader" />
+     <None Include="Assets\Plugins\Demigiant\DOTween\readme.txt" />
+     <None Include="Assets\Plugins\Effects or Addons\Cinema Suite\Cinema Mocap\READ ME FIRST!.txt" />
+     <None Include="Assets\Plugins\Effects or Addons\Camera Filter Pack\Resources\CameraFilterPack_Blur_DitherOffset.shader" />
+     <None Include="Assets\Plugins\Effects or Addons\Camera Filter Pack\Resources\CameraFilterPack_Oculus_NightVision1.shader" />
+     <None Include="Assets\Plugins\Effects or Addons\Camera Filter Pack\Resources\CameraFilterPack_FX_Spot.shader" />
+     <None Include="Assets\Plugins\Effects or Addons\Camera Filter Pack\Resources\CameraFilterPack_Colors_Adjust_FullColors.shader" />
+     <None Include="Assets\Plugins\Effects or Addons\Camera Filter Pack\Resources\CameraFilterPack_TV_Old.shader" />
+     <None Include="Assets\Plugins\Effects or Addons\Camera Filter Pack\Resources\CameraFilterPack_TV_Vintage.shader" />
+     <None Include="Assets\Plugins\Effects or Addons\Camera Filter Pack\Resources\CameraFilterPack_Vision_AuraDistortion.shader" />
+     <None Include="Assets\Plugins\Effects or Addons\Camera Filter Pack\Resources\CameraFilterPack_Vision_Blood.shader" />
+     <None Include="Assets\Plugins\Effects or Addons\Colorful FX\Shaders\Pixelate.shader" />
+     <None Include="Assets\Plugins\Effects or Addons\Colorful FX\Shaders\CrossStitch.shader" />
+     <None Include="Assets\Plugins\Effects or Addons\Camera Filter Pack\Resources\CameraFilterPack_Distortion_BigFace.shader" />
+     <None Include="Assets\Plugins\Effects or Addons\Camera Filter Pack\Resources\CameraFilterPack_FX_InverChromiLum.shader" />
+     <None Include="Assets\Plugins\Effects or Addons\Camera Filter Pack\Resources\CameraFilterPack_FX_8bits_gb.shader" />
+     <None Include="Assets\Plugins\Effects or Addons\Colorful FX\Shaders\BrightnessContrastGamma.shader" />
+     <None Include="Assets\Plugins\Effects or Addons\Camera Filter Pack\Resources\CameraFilterPack_Color_Sepia.shader" />
+     <None Include="Assets\Plugins\Effects or Addons\Camera Filter Pack\Resources\CameraFilterPack_Blend2Camera_Subtract.shader" />
+     <None Include="Assets\Plugins\Effects or Addons\Camera Filter Pack\Resources\CameraFilterPack_Colors_NewPosterize.shader" />
+     <None Include="Assets\Plugins\Effects or Addons\Camera Filter Pack\Resources\CameraFilterPack_Blur_Blurry.shader" />
+     <None Include="Assets\Plugins\Effects or Addons\Colorful FX\Shaders\HueFocus.shader" />
+     <None Include="Assets\Plugins\Effects or Addons\Camera Filter Pack\Resources\CameraFilterPack_Blend2Camera_Darken.shader" />
+     <None Include="Assets\Standard Assets\Environment\Water\Water\Shaders\FXWaterPro.shader" />
+     <None Include="Assets\Plugins\Effects or Addons\Camera Filter Pack\Resources\CameraFilterPack_Gradients_FireGradient.shader" />
+     <None Include="Assets\Plugins\Effects or Addons\Colorful FX\Shaders\LookupFilter3D.shader" />
+     <None Include="Assets\Plugins\Demigiant\DOTween\DOTween43.xml" />
+     <None Include="Assets\Plugins\Effects or Addons\Camera Filter Pack\Resources\CameraFilterPack_Oculus_ThermaVision.shader" />
+     <None Include="Assets\Plugins\Effects or Addons\Camera Filter Pack\Resources\CameraFilterPack_TV_WideScreenHV.shader" />
+     <None Include="Assets\Plugins\Effects or Addons\Camera Filter Pack\Resources\CameraFilterPack_Gradients_Tech.shader" />
+     <None Include="Assets\Plugins\Effects or Addons\Colorful FX\Shaders\GrainyBlur.shader" />
+     <None Include="Assets\Plugins\Effects or Addons\Camera Filter Pack\Resources\CameraFilterPack_Drawing_Comics.shader" />
+     <None Include="Assets\Plugins\Effects or Addons\Camera Filter Pack\Resources\CameraFilterPack_Distortion_Dissipation.shader" />
+     <None Include="Assets\Plugins\Effects or Addons\Camera Filter Pack\Resources\CameraFilterPack_TV_Chromatical2.shader" />
+     <None Include="Assets\Plugins\Effects or Addons\Camera Filter Pack\Resources\CameraFilterPack_FX_EarthQuake.shader" />
+     <None Include="Assets\Plugins\Effects or Addons\Camera Filter Pack\Resources\CameraFilterPack_Blend2Camera_Luminosity.shader" />
+     <None Include="Assets\Plugins\Effects or Addons\Camera Filter Pack\Resources\CameraFilterPack_TV_Distorted.shader" />
+     <None Include="Assets\Plugins\Effects or Addons\Camera Filter Pack\Resources\CameraFilterPack_Vision_Plasma.shader" />
+     <None Include="Assets\Plugins\Effects or Addons\Colorful FX\Shaders\Levels.shader" />
+     <None Include="Assets\Plugins\Effects or Addons\Standard Assets\Effects\TonemappingColorGrading\Resources\TonemappingColorGrading.shader" />
+     <None Include="Assets\Plugins\Effects or Addons\Colorful FX\Shaders\DirectionalBlur.shader" />
+     <None Include="Assets\Plugins\Effects or Addons\Camera Filter Pack\Resources\CameraFilterPack_Colors_HSV.shader" />
+     <None Include="Assets\Plugins\Effects or Addons\Camera Filter Pack\Resources\CameraFilterPack_Vision_Drost.shader" />
+     <None Include="Assets\Plugins\Effects or Addons\Camera Filter Pack\Resources\CameraFilterPack_Colors_Adjust_ColorRGB.shader" />
+     <None Include="Assets\Plugins\Effects or Addons\Colorful FX\Shaders\TVVignette.shader" />
+     <None Include="Assets\Plugins\Effects or Addons\Colorful FX\Changelog.txt" />
+     <None Include="Assets\Plugins\Effects or Addons\Cinema Suite\Cinema Pro Cams\Shader\Stereo3D.shader" />
+     <None Include="Assets\Plugins\Effects or Addons\Camera Filter Pack\Resources\CameraFilterPack_Blend2Camera_Blend.shader" />
+     <None Include="Assets\Plugins\Effects or Addons\Camera Filter Pack\Resources\CameraFilterPack_FX_Psycho.shader" />
+     <None Include="Assets\Plugins\Effects or Addons\Camera Filter Pack\Resources\CameraFilterPack_Blend2Camera_LinearLight.shader" />
+     <None Include="Assets\Plugins\Effects or Addons\Camera Filter Pack\Resources\CameraFilterPack_TV_50.shader" />
+     <None Include="Assets\Plugins\Effects or Addons\Camera Filter Pack\Resources\CameraFilterPack_FX_Dot_Circle.shader" />
+     <None Include="Assets\Plugins\Effects or Addons\Camera Filter Pack\Resources\CameraFilterPack_Colors_Brightness.shader" />
+     <None Include="Assets\Plugins\Effects or Addons\Camera Filter Pack\Resources\CameraFilterPack_TV_Video3D.shader" />
+     <None Include="Assets\Plugins\Effects or Addons\Camera Filter Pack\Resources\CameraFilterPack_Blur_Dithering2x2.shader" />
+     <None Include="Assets\Plugins\Effects or Addons\Colorful FX\Shaders\ChannelSwapper.shader" />
+     <None Include="Assets\Plugins\Effects or Addons\Camera Filter Pack\Resources\CameraFilterPack_Colors_HUE_Rotate.shader" />
+     <None Include="Assets\Plugins\Effects or Addons\Colorful FX\Shaders\LookupFilter.shader" />
+     <None Include="Assets\Plugins\Effects or Addons\Camera Filter Pack\Resources\CameraFilterPack_Blur_Radial_Fast.shader" />
+     <None Include="Assets\Plugins\Effects or Addons\Colorful FX\Shaders\AnalogTV.shader" />
+     <None Include="Assets\Plugins\Effects or Addons\Camera Filter Pack\Resources\CameraFilterPack_Blend2Camera_GreenScreen.shader" />
+     <None Include="Assets\Plugins\Effects or Addons\Camera Filter Pack\Resources\CameraFilterPack_Drawing_CellShading.shader" />
+     <None Include="Assets\Plugins\Effects or Addons\Camera Filter Pack\Resources\CameraFilterPack_Blend2Camera_Hue.shader" />
+     <None Include="Assets\Plugins\Effects or Addons\Camera Filter Pack\Resources\CameraFilterPack_Light_Water.shader" />
+     <None Include="Assets\Plugins\Effects or Addons\Camera Filter Pack\Resources\CameraFilterPack_Pixel_Pixelisation.shader" />
+     <None Include="Assets\Plugins\Effects or Addons\Camera Filter Pack\Resources\CameraFilterPack_TV_Vcr.shader" />
+     <None Include="Assets\Plugins\Effects or Addons\Camera Filter Pack\Resources\CameraFilterPack_Drawing_Manga_Color.shader" />
+     <None Include="Assets\Plugins\Effects or Addons\Standard Assets\Effects\Bloom\Resources\Bloom.cginc" />
+     <None Include="Assets\Plugins\Effects or Addons\Camera Filter Pack\Resources\CameraFilterPack_Color_Contrast.shader" />
+     <None Include="Assets\Plugins\Effects or Addons\Colorful FX\Readme.txt" />
+     <None Include="Assets\Plugins\Effects or Addons\Colorful FX\Shaders\Kuwahara.cginc" />
+     <None Include="Assets\Plugins\Effects or Addons\Camera Filter Pack\Resources\CameraFilterPack_Color_Noise.shader" />
+     <None Include="Assets\Plugins\Effects or Addons\Camera Filter Pack\Resources\CameraFilterPack_Pixelisation_OilPaintHQ.shader" />
+     <None Include="Assets\Plugins\Effects or Addons\Camera Filter Pack\Resources\CameraFilterPack_AAA_WaterDrop.shader" />
+     <None Include="Assets\Plugins\Effects or Addons\Standard Assets\Effects\DepthOfField\Resources\MedianFilter.shader" />
+     <None Include="Assets\Plugins\Effects or Addons\Camera Filter Pack\Resources\CameraFilterPack_Edge_Sigmoid.shader" />
+     <None Include="Assets\Plugins\Effects or Addons\Camera Filter Pack\Resources\CameraFilterPack_TV_Old_Movie.shader" />
+     <None Include="Assets\Plugins\Effects or Addons\Camera Filter Pack\Resources\CameraFilterPack_Blend2Camera_Screen.shader" />
+     <None Include="Assets\Plugins\Effects or Addons\Camera Filter Pack\Resources\CameraFilterPack_Distortion_Wave_Horizontal.shader" />
+     <None Include="Assets\Plugins\Effects or Addons\Camera Filter Pack\Resources\CameraFilterPack_FX_Ascii.shader" />
+     <None Include="Assets\Plugins\Effects or Addons\Camera Filter Pack\Resources\CameraFilterPack_TV_Videoflip.shader" />
+     <None Include="Assets\Plugins\Effects or Addons\Camera Filter Pack\Resources\CameraFilterPack_Sharpen_Sharpen.shader" />
+     <None Include="Assets\Plugins\LightShafts-master\Raymarch.shader" />
+     <None Include="Assets\Plugins\Effects or Addons\Camera Filter Pack\Resources\CameraFilterPack_Vision_Psycho.shader" />
+     <None Include="Assets\Plugins\Effects or Addons\Camera Filter Pack\Resources\CameraFilterPack_Atmosphere_Snow_8bits.shader" />
+     <None Include="Assets\Plugins\LightShafts-master\FinalInterpolation.shader" />
+     <None Include="Assets\Plugins\Effects or Addons\Camera Filter Pack\Resources\CameraFilterPack_TV_Posterize.shader" />
+     <None Include="Assets\Plugins\Effects or Addons\Camera Filter Pack\Resources\CameraFilterPack_Blur_Movie.shader" />
+     <None Include="Assets\Plugins\Effects or Addons\Standard Assets\Effects\DepthOfField\Resources\BokehSplatting.shader" />
+     <None Include="Assets\Plugins\Effects or Addons\Colorful FX\Shaders\Letterbox.shader" />
+     <None Include="Assets\Plugins\Effects or Addons\Camera Filter Pack\Resources\CameraFilterPack_Blend2Camera_Saturation.shader" />
+     <None Include="Assets\Plugins\LightShafts-master\Depth.shader" />
+     <None Include="Assets\Plugins\Effects or Addons\Camera Filter Pack\Resources\CameraFilterPack_Vision_Aura.shader" />
+     <None Include="Assets\Plugins\Effects or Addons\Camera Filter Pack\Resources\CameraFilterPack_Drawing_Toon.shader" />
+     <None Include="Assets\Standard Assets\Environment\Water\Water4\Shaders\WaterInclude.cginc" />
+     <None Include="Assets\Standard Assets\Environment\Water\Water4\Shaders\FXWater4Advanced.shader" />
+     <None Include="Assets\Plugins\Effects or Addons\Camera Filter Pack\Resources\CameraFilterPack_Blur_Bloom.shader" />
+     <None Include="Assets\Plugins\Effects or Addons\Camera Filter Pack\Resources\CameraFilterPack_Distortion_Noise.shader" />
+     <None Include="Assets\Plugins\Effects or Addons\Colorful FX\Shaders\RadialBlur.shader" />
+     <None Include="Assets\Plugins\Effects or Addons\Camera Filter Pack\Resources\CameraFilterPack_Drawing_CellShading2.shader" />
+     <None Include="Assets\Plugins\Effects or Addons\Camera Filter Pack\Resources\CameraFilterPack_TV_LED.shader" />
+     <None Include="Assets\Plugins\Effects or Addons\Camera Filter Pack\Resources\CameraFilterPack_Drawing_Manga4.shader" />
+     <None Include="Assets\Plugins\Effects or Addons\Cinema Suite\Cinema Director\ChangeLog.txt" />
+     <None Include="Assets\Plugins\Effects or Addons\Colorful FX\Shaders\LookupFilter2D.shader" />
+     <None Include="Assets\Plugins\Effects or Addons\Camera Filter Pack\Resources\CameraFilterPack_Distortion_Dream2.shader" />
+     <None Include="Assets\Plugins\Effects or Addons\Colorful FX\Shaders\Frost.shader" />
+     <None Include="Assets\Plugins\Effects or Addons\Standard Assets\Effects\LensAberrations\Resources\LensAberrations.shader" />
+     <None Include="Assets\Plugins\Effects or Addons\Camera Filter Pack\Resources\CameraFilterPack_Blend2Camera_Difference.shader" />
+     <None Include="Assets\Plugins\Effects or Addons\Camera Filter Pack\Resources\CameraFilterPack_Blend2Camera_Color.shader" />
+     <None Include="Assets\Plugins\Demigiant\readme_DOTweenPro.txt" />
+     <None Include="Assets\Plugins\Effects or Addons\Camera Filter Pack\Resources\CameraFilterPack_Drawing_EnhancedComics.shader" />
+     <None Include="Assets\Plugins\Effects or Addons\Camera Filter Pack\Resources\CameraFilterPack_Colors_Threshold.shader" />
+     <None Include="Assets\Plugins\Effects or Addons\Camera Filter Pack\Resources\CameraFilterPack_TV_Tiles.shader" />
+     <None Include="Assets\Plugins\Effects or Addons\Colorful FX\Shaders\Convolution3x3.shader" />
+     <None Include="Assets\Plugins\Effects or Addons\Camera Filter Pack\Resources\CameraFilterPack_TV_BrokenGlass2.shader" />
+     <None Include="Assets\Plugins\Effects or Addons\Standard Assets\Effects\TonemappingColorGrading\Resources\HistogramCompute.compute" />
+     <None Include="Assets\Plugins\Effects or Addons\Camera Filter Pack\Resources\CameraFilterPack_Blend2Camera_HardMix.shader" />
+     <None Include="Assets\Plugins\LightShafts-master\ColorFilter.shader" />
+     <None Include="Assets\Plugins\Effects or Addons\Camera Filter Pack\Resources\CameraFilterPack_TV_CompressionFX.shader" />
+     <None Include="Assets\Plugins\Effects or Addons\Camera Filter Pack\Resources\CameraFilterPack_Color_Chromatic_Aberration.shader" />
+     <None Include="Assets\Plugins\Effects or Addons\Camera Filter Pack\Resources\CameraFilterPack_Drawing_Laplacian.shader" />
+     <None Include="Assets\Plugins\Effects or Addons\Camera Filter Pack\Resources\CameraFilterPack_Distortion_BlackHole.shader" />
+     <None Include="Assets\Plugins\Effects or Addons\Camera Filter Pack\Resources\CameraFilterPack_TV_Noise.shader" />
+     <None Include="Assets\Plugins\Effects or Addons\Camera Filter Pack\Resources\CameraFilterPack_FX_Grid.shader" />
+ <Reference Include="UnityEngine.UI">
+ <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.UI">
+ <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/GUISystem/Editor/UnityEditor.UI.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.Networking">
+ <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.Networking">
+ <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/Networking/Editor/UnityEditor.Networking.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.TestRunner">
+ <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/TestRunner/Editor/UnityEditor.TestRunner.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.TestRunner">
+ <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/TestRunner/UnityEngine.TestRunner.dll</HintPath>
+ </Reference>
+ <Reference Include="nunit.framework">
+ <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/TestRunner/net35/unity-custom/nunit.framework.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.Timeline">
+ <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/Timeline/RuntimeEditor/UnityEngine.Timeline.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.Timeline">
+ <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/Timeline/Editor/UnityEditor.Timeline.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.TreeEditor">
+ <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/TreeEditor/Editor/UnityEditor.TreeEditor.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.UIAutomation">
+ <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/UIAutomation/UnityEngine.UIAutomation.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.UIAutomation">
+ <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/UIAutomation/Editor/UnityEditor.UIAutomation.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.GoogleAudioSpatializer">
+ <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/UnityGoogleAudioSpatializer/Editor/UnityEditor.GoogleAudioSpatializer.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.GoogleAudioSpatializer">
+ <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/UnityGoogleAudioSpatializer/RuntimeEditor/UnityEngine.GoogleAudioSpatializer.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.HoloLens">
+ <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/UnityHoloLens/Editor/UnityEditor.HoloLens.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.HoloLens">
+ <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/UnityHoloLens/RuntimeEditor/UnityEngine.HoloLens.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.SpatialTracking">
+ <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/UnitySpatialTracking/Editor/UnityEditor.SpatialTracking.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.SpatialTracking">
+ <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/UnitySpatialTracking/RuntimeEditor/UnityEngine.SpatialTracking.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.VR">
+ <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/UnityVR/Editor/UnityEditor.VR.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.Graphs">
+ <HintPath>/Applications/Unity/Unity.app/Contents/Managed/UnityEditor.Graphs.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.Android.Extensions">
+ <HintPath>/Applications/Unity/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.iOS.Extensions">
+ <HintPath>/Applications/Unity/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.OSXStandalone.Extensions">
+ <HintPath>/Applications/Unity/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll</HintPath>
+ </Reference>
+ <Reference Include="Google.ProtocolBuffers">
+ <HintPath>/Users/valauskasmodestas/New Unity Project/Assets/Plugins/Google.ProtocolBuffers.dll</HintPath>
+ </Reference>
+ <Reference Include="DirectorEditor">
+ <HintPath>/Users/valauskasmodestas/New Unity Project/Assets/Plugins/Effects or Addons/Cinema Suite/Cinema Director/System/Editor/DirectorControl/DirectorEditor.dll</HintPath>
+ </Reference>
+ <Reference Include="CinemaMocap">
+ <HintPath>/Users/valauskasmodestas/New Unity Project/Assets/Plugins/Effects or Addons/Cinema Suite/Cinema Mocap/Editor/CinemaMocap.dll</HintPath>
+ </Reference>
+ <Reference Include="OpenNI.Net">
+ <HintPath>/Users/valauskasmodestas/New Unity Project/Assets/Plugins/Effects or Addons/Cinema Suite/Cinema Mocap/Editor/Zigfu/OpenNI.Net.dll</HintPath>
+ </Reference>
+ <Reference Include="ZDK_Editor">
+ <HintPath>/Users/valauskasmodestas/New Unity Project/Assets/Plugins/Effects or Addons/Cinema Suite/Cinema Mocap/Editor/Zigfu/ZDK_Editor.dll</HintPath>
+ </Reference>
+ <Reference Include="DOTweenPro">
+ <HintPath>/Users/valauskasmodestas/New Unity Project/Assets/Plugins/Demigiant/DOTweenPro/DOTweenPro.dll</HintPath>
+ </Reference>
+ <Reference Include="DOTweenProEditor">
+ <HintPath>/Users/valauskasmodestas/New Unity Project/Assets/Plugins/Demigiant/DOTweenPro/Editor/DOTweenProEditor.dll</HintPath>
+ </Reference>
+ <Reference Include="DemiLib">
+ <HintPath>/Users/valauskasmodestas/New Unity Project/Assets/Plugins/Demigiant/DemiLib/Core/DemiLib.dll</HintPath>
+ </Reference>
+ <Reference Include="DemiEditor">
+ <HintPath>/Users/valauskasmodestas/New Unity Project/Assets/Plugins/Demigiant/DemiLib/Core/Editor/DemiEditor.dll</HintPath>
+ </Reference>
+ <Reference Include="DOTween">
+ <HintPath>/Users/valauskasmodestas/New Unity Project/Assets/Plugins/Demigiant/DOTween/DOTween.dll</HintPath>
+ </Reference>
+ <Reference Include="DOTween43">
+ <HintPath>/Users/valauskasmodestas/New Unity Project/Assets/Plugins/Demigiant/DOTween/DOTween43.dll</HintPath>
+ </Reference>
+ <Reference Include="DOTween50">
+ <HintPath>/Users/valauskasmodestas/New Unity Project/Assets/Plugins/Demigiant/DOTween/DOTween50.dll</HintPath>
+ </Reference>
+ <Reference Include="DOTween46">
+ <HintPath>/Users/valauskasmodestas/New Unity Project/Assets/Plugins/Demigiant/DOTween/DOTween46.dll</HintPath>
+ </Reference>
+ <Reference Include="DOTweenEditor">
+ <HintPath>/Users/valauskasmodestas/New Unity Project/Assets/Plugins/Demigiant/DOTween/Editor/DOTweenEditor.dll</HintPath>
+ </Reference>
+ <Reference Include="JMOAssets">
+ <HintPath>/Users/valauskasmodestas/New Unity Project/Assets/JMO Assets/Editor/JMOAssets.dll</HintPath>
+ </Reference>
+ <Reference Include="MeshEditor">
+ <HintPath>/Users/valauskasmodestas/New Unity Project/Assets/MeshEditor/Editor/MeshEditor.dll</HintPath>
+ </Reference>
+ <Reference Include="ComputationalGeometry">
+ <HintPath>/Users/valauskasmodestas/New Unity Project/Assets/MeshEditor/Editor/Plugins/ComputationalGeometry.dll</HintPath>
+ </Reference>
+ <Reference Include="VectorGeometry">
+ <HintPath>/Users/valauskasmodestas/New Unity Project/Assets/MeshEditor/Editor/Plugins/VectorGeometry.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.Advertisements">
+ <HintPath>/Users/valauskasmodestas/Library/Unity/cache/packages/packages.unity.com/com.unity.ads@2.0.3/UnityEngine.Advertisements.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.Advertisements">
+ <HintPath>/Users/valauskasmodestas/Library/Unity/cache/packages/packages.unity.com/com.unity.ads@2.0.3/Editor/UnityEditor.Advertisements.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.Analytics">
+ <HintPath>/Users/valauskasmodestas/Library/Unity/cache/packages/packages.unity.com/com.unity.analytics@2.0.13/UnityEngine.Analytics.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.Analytics">
+ <HintPath>/Users/valauskasmodestas/Library/Unity/cache/packages/packages.unity.com/com.unity.analytics@2.0.13/Editor/UnityEditor.Analytics.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.Purchasing">
+ <HintPath>/Users/valauskasmodestas/Library/Unity/cache/packages/packages.unity.com/com.unity.purchasing@0.0.19/UnityEngine.Purchasing.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.Purchasing">
+ <HintPath>/Users/valauskasmodestas/Library/Unity/cache/packages/packages.unity.com/com.unity.purchasing@0.0.19/Editor/UnityEditor.Purchasing.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.StandardEvents">
+ <HintPath>/Users/valauskasmodestas/Library/Unity/cache/packages/packages.unity.com/com.unity.standardevents@1.0.10/UnityEngine.StandardEvents.dll</HintPath>
+ </Reference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  
+</Project>

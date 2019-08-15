@@ -1,0 +1,7 @@
+<xcodeproj>
+  <pbxproj linkerFlags="-weak_framework CoreMotion -weak-lSystem">
+  </pbxproj>
+  <plist>
+    <entry key="NSPhotoLibraryUsageDescription" type="STRING" value="To take ingame pictures and save them to your photo library" />
+  </plist>
+</xcodeproj>

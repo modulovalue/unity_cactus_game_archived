@@ -1,0 +1,29 @@
+1.1.0.1
+- Issues Finder:
+  - fixed scenes paths comparison leading to unnecessary scene save prompt
+
+1.1.0
+- Issues Finder: 
+  - new scene filtering mode: current scene only
+  - new search option: Duplicate components
+  - new Reset button added to let you quickly reset settings to defaults
+  - new standard prefab icon added to the prefab assets records
+  - now after search you return to the scene which was opened before search
+  - now scene file is highlighted when you press "show" button
+  - now all buttons for found issues are placed below issue description to avoid unnecessary scrolling
+  - now all deep nested objects (level 2 and more) in instantiated prefabs are scanned as well
+  - report header was re-worked a bit and now includes unity version
+  - now Issues Finder may be called from user scripts, see "Using Maintainer from code" readme section
+  - lot of tooltips added
+  - attempt to fix rare Maintainer leakage
+  - increased Unity 5 compatibility (deprecated API replaced)
+  - scenes in build filtration optimizations
+  - minor fixes and improvements
+  - minor optimizations
+  - minor refactorings
+- Settings file is now re-created in case it was damaged and couldn't be read
+- Troubleshooting readme section was supplemented by new item about Debug Inspector mode
+- additions and fixes in readme
+
+1.0.0
+- first public release with initial Issues Finder module

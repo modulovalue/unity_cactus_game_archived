@@ -1,0 +1,19 @@
+﻿<Properties StartupItem="Assembly-CSharp.csproj">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/PlayerScripts/PlayerMovementController.cs">
+    <Files>
+      <File FileName="Assets/Scripts/PlayerScripts/PlayerMovementController.cs" Line="54" Column="61" />
+      <File FileName="Assets/Scripts/UIController.cs" Line="57" Column="30" />
+      <File FileName="Assets/GravityVertPull.cs" Line="26" Column="21" />
+      <File FileName="Assets/Scripts/LevelPortalScript.cs" Line="30" Column="42" />
+      <File FileName="Assets/GravityBody.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/LevelDesignScript.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/SimplePortalScript.cs" Line="109" Column="1" />
+      <File FileName="Assets/Scripts/MainGameController.cs" Line="73" Column="104" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>
