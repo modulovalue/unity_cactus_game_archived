@@ -8,8 +8,8 @@ It was great but the scope was too big. My little cousins loved it.
 
 My main takeaway is: it turns out you shouldn't do something just because you can. Focus is key.
 
-#In game
+# In game
 ![in game view](ingame1.png)
 
-#Building
+# Building
 ![building](building.jpg)
